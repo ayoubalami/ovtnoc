@@ -1,0 +1,54 @@
+{
+  "repository": "https://github.com/kamkyu94/Fast_Online_MTMCT",
+  "commit": "f920c396aaa820e231bd3fb7ec12d563ce75c396",
+  "retrieved_date": "2026-10-03",
+  "license": "MIT",
+  "files": {
+    "LICENSE": {
+      "sha256": "8f95d81dc29ea9084827e07273ab050b0423830a6c8f91fd495fb054182c6a9e",
+      "source_url": "https://raw.githubusercontent.com/kamkyu94/Fast_Online_MTMCT/f920c396aaa820e231bd3fb7ec12d563ce75c396/LICENSE",
+      "bytes": 1068
+    },
+    "README.md": {
+      "sha256": "ea3896b352eca3973e6bbf4557a07033013b97bfae47d83ac3c5955893b61170",
+      "source_url": "https://raw.githubusercontent.com/kamkyu94/Fast_Online_MTMCT/f920c396aaa820e231bd3fb7ec12d563ce75c396/README.md",
+      "bytes": 364
+    },
+    "2. online_MTMC/README.md": {
+      "sha256": "8ad4f1b6185ce0f7e1c04edfa13a73bcf2b0f456627b98507a3b3bce35ed02af",
+      "source_url": "https://raw.githubusercontent.com/kamkyu94/Fast_Online_MTMCT/f920c396aaa820e231bd3fb7ec12d563ce75c396/2.%20online_MTMC/README.md",
+      "bytes": 1127
+    },
+    "2. online_MTMC/run_mtmc.py": {
+      "sha256": "e81643e0e133bb28f872fe4059abba307a937446326489bb6b073c9f8d76d9d6",
+      "source_url": "https://raw.githubusercontent.com/kamkyu94/Fast_Online_MTMCT/f920c396aaa820e231bd3fb7ec12d563ce75c396/2.%20online_MTMC/run_mtmc.py",
+      "bytes": 21384
+    },
+    "2. online_MTMC/opts.py": {
+      "sha256": "50470e227d502623eec5373b4a24c9be2654ab476e135795b499595b662c966d",
+      "source_url": "https://raw.githubusercontent.com/kamkyu94/Fast_Online_MTMCT/f920c396aaa820e231bd3fb7ec12d563ce75c396/2.%20online_MTMC/opts.py",
+      "bytes": 2589
+    },
+    "2. online_MTMC/utils/utils.py": {
+      "sha256": "bf59dc123ad558e01a1abb4f865eb9819a405f8d57c07f56540c9e60dca33254",
+      "source_url": "https://raw.githubusercontent.com/kamkyu94/Fast_Online_MTMCT/f920c396aaa820e231bd3fb7ec12d563ce75c396/2.%20online_MTMC/utils/utils.py",
+      "bytes": 5512
+    },
+    "2. online_MTMC/utils/scipy_linear_assignment.py": {
+      "sha256": "eab9e7cb259359334845d1e0e5f2234eb8c3b98a7a0e7f9de4357e9ab064ddad",
+      "source_url": "https://raw.githubusercontent.com/kamkyu94/Fast_Online_MTMCT/f920c396aaa820e231bd3fb7ec12d563ce75c396/2.%20online_MTMC/utils/scipy_linear_assignment.py",
+      "bytes": 8941
+    },
+    "2. online_MTMC/utils/sklearn_dunn.py": {
+      "sha256": "05570e01cb95fa298e8226ab5ff755a5eb00c703d42a29eb4e68158b81748547",
+      "source_url": "https://raw.githubusercontent.com/kamkyu94/Fast_Online_MTMCT/f920c396aaa820e231bd3fb7ec12d563ce75c396/2.%20online_MTMC/utils/sklearn_dunn.py",
+      "bytes": 5668
+    },
+    "2. online_MTMC/tracking/track.py": {
+      "sha256": "50195d43e7c3edd88c63c6fc7c6f1e143dd8576cea26d6d0162aa3000c6670bc",
+      "source_url": "https://raw.githubusercontent.com/kamkyu94/Fast_Online_MTMCT/f920c396aaa820e231bd3fb7ec12d563ce75c396/2.%20online_MTMC/tracking/track.py",
+      "bytes": 6874
+    }
+  },
+  "scope": "Small unmodified source subset for association-only CPU adaptation; no checkpoints or datasets downloaded."
+}

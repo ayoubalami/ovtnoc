@@ -1,0 +1,20 @@
+{
+  "status": "defined_before_yolo_prefix_matrix",
+  "development_scenario": "S02",
+  "interval_s": [
+    0,
+    60
+  ],
+  "criterion": [
+    "highest tracked both-endpoint spatial coverage",
+    "highest local annotation recall",
+    "lexicographic front_end,tracker tie break"
+  ],
+  "association_outcomes_used_to_select_perception": false,
+  "tracker_profiles": [
+    "legacy",
+    "moderate",
+    "standard"
+  ],
+  "selection_script_sha256": "cc926aa4bf59d8d5a308316fbac1387a26089461090549f57526501e1dbd00c5"
+}

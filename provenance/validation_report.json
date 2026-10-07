@@ -1,0 +1,68 @@
+{
+  "release": "publication-v0.7",
+  "validation_date": "2026-10-05",
+  "python": "3.12",
+  "platform": "Windows desktop",
+  "editable_install": {
+    "status": "passed",
+    "dependency_mode": "Existing paper dependency packages reused from an isolated validation environment. A clean network dependency installation was not performed."
+  },
+  "tests_without_dataset": {
+    "passed": 245,
+    "skipped": 8,
+    "warnings": 19
+  },
+  "tests_with_cityflow_dataset": {
+    "passed": 253,
+    "skipped": 0,
+    "warnings": 33
+  },
+  "warnings": "SyntaxWarning in unchanged upstream regular-expression string literals; no test failures.",
+  "portable_preparation": {
+    "cityflow_S05": "passed",
+    "roundabout_validation": "passed",
+    "roundabout_test": "passed",
+    "roundabout_all4": "passed"
+  },
+  "cityflow_replay_smoke_check": {
+    "conditions": [
+      {
+        "confirmation_frames": 0,
+        "all_reported_metrics_exactly_match": true,
+        "prediction_and_trace_sha256": {
+          "predictions.txt": "99314688b3cdc370fde47c466825b5581de39f623013276df2d2d135d3d44eaa",
+          "local_predictions.txt": "13afb3bd0b62be10dd21a4ca231686db01b5e3d4ca45c0374fb5f078e960c8c9",
+          "decisions.jsonl": "3c1646546b796b1de34d5ad1ebe19f211898d93262bed16b347402e50ac5e3cd",
+          "availability.jsonl": "658569a6fc72f504f4a11fb8810d69264e97fe69e75d368c0b2d6aa2cfc1e33a"
+        },
+        "official_IDF1": 0.182368165642187
+      },
+      {
+        "confirmation_frames": 2,
+        "all_reported_metrics_exactly_match": true,
+        "prediction_and_trace_sha256": {
+          "predictions.txt": "b218e572b4e3f07db90de5b4dd50827acd5ec1c03089b53355cc042359951c69",
+          "local_predictions.txt": "13afb3bd0b62be10dd21a4ca231686db01b5e3d4ca45c0374fb5f078e960c8c9",
+          "decisions.jsonl": "3c1646546b796b1de34d5ad1ebe19f211898d93262bed16b347402e50ac5e3cd",
+          "availability.jsonl": "4b0aa57fb7e4d2be2dcb7537980f20ba528a6e9f93f2cbc4a1acaba1b07daa94"
+        },
+        "official_IDF1": 0.18656026470731352
+      }
+    ],
+    "scope": "The two completed conditions were compared against the frozen full manuscript study. The remaining study conditions were not rerun during packaging."
+  },
+  "roundabout_cache_validation": {
+    "status": "complete",
+    "raw_detection_rows": {
+      "1": 28326,
+      "2": 26244
+    }
+  },
+  "core_module_count": 24,
+  "algorithm_changes": false,
+  "limitations": [
+    "No clean-network dependency install or Linux execution was performed.",
+    "No new end-to-end detector benchmark was performed."
+  ],
+  "normalized_roundabout_label_parity": "exact SHA256 match with original prepared labels"
+}

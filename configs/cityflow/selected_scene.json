@@ -1,0 +1,66 @@
+{
+  "dataset_root": "${CITYFLOW_ROOT}",
+  "split": "validation",
+  "scenario": "S05",
+  "cameras": {
+    "29": {
+      "camera": 29,
+      "fps": 10.0,
+      "frames": 3545,
+      "width": 1920,
+      "height": 1080,
+      "timestamp_offset_s": 0.0,
+      "video": "${CITYFLOW_ROOT}/validation/S05/c029/vdo.avi",
+      "video_bytes": 806228926,
+      "roi": "${CITYFLOW_ROOT}/validation/S05/c029/roi.jpg",
+      "roi_sha256": "56a19bfa6b67cd99cd71419f970e13caffcda2e85ba72f2e90f053441532afcf",
+      "video_sha256": "23852c3a8afc1213ab26ba77a62e3d4da37680645f80d43a0c536b1aa41d5a02"
+    },
+    "33": {
+      "camera": 33,
+      "fps": 10.0,
+      "frames": 3407,
+      "width": 1920,
+      "height": 1080,
+      "timestamp_offset_s": 0.0,
+      "video": "${CITYFLOW_ROOT}/validation/S05/c033/vdo.avi",
+      "video_bytes": 580544644,
+      "roi": "${CITYFLOW_ROOT}/validation/S05/c033/roi.jpg",
+      "roi_sha256": "9c9342c0864cb7d9425f4fb1adaf846e7d48f4276ec5defb3e1858e9f0f6ef67",
+      "video_sha256": "15f646fa408460cb1ed04f4972ec68aff2544eaf73a837996ed85e3bdb843e33"
+    },
+    "34": {
+      "camera": 34,
+      "fps": 10.0,
+      "frames": 3425,
+      "width": 1920,
+      "height": 1080,
+      "timestamp_offset_s": 0.0,
+      "video": "${CITYFLOW_ROOT}/validation/S05/c034/vdo.avi",
+      "video_bytes": 712377350,
+      "roi": "${CITYFLOW_ROOT}/validation/S05/c034/roi.jpg",
+      "roi_sha256": "216996b436b764455355d874c33b5cbfe4aaa6bb7b72e4c394b71f37d13b4807",
+      "video_sha256": "09ee2ed43100ce3e6704ce57a5a21d7aafccccf0e95e48c04b9d60ce03648ad3"
+    },
+    "35": {
+      "camera": 35,
+      "fps": 10.0,
+      "frames": 3472,
+      "width": 1920,
+      "height": 1080,
+      "timestamp_offset_s": 0.0,
+      "video": "${CITYFLOW_ROOT}/validation/S05/c035/vdo.avi",
+      "video_bytes": 363462518,
+      "roi": "${CITYFLOW_ROOT}/validation/S05/c035/roi.jpg",
+      "roi_sha256": "e9bc583134a15a72ce3c8528c053c0b5dbb7b58dcbb94402b238cb7694793016",
+      "video_sha256": "db8d043187e7335315daf7a718a9fb65011b6f78f177e01fc25c067f2c063f00"
+    }
+  },
+  "timestamps_sha256": "aec29177e1699f57d769fbbe5c85193e5a9694952172248a3902b91fb3fee918",
+  "framecounts_sha256": "de56a9794a9d0491b3bd69c9bd94b8bf8ed1466b0eb7b3b0abaf778a4befc49f",
+  "location_map": "${CITYFLOW_ROOT}/cam_loc/S0345.png",
+  "location_map_sha256": "b816e759da6bd8bf7c6540c89c6d8d5e449c13d220b6879ec8ca9fab76019b3f",
+  "readme_sha256": "c44487ec521ae0fd92561053204c47c2db30ee98a4d8f6143091592b9f3b89ff",
+  "clock": "offset_s + zero_based_local_frame/native_fps; integer microseconds",
+  "timing_limit": "Supplied start offsets only; transmission skips/stuck frames are not repaired."
+}

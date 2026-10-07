@@ -1,0 +1,3 @@
+# Preserve the exact bytes used by source and release checksums, including the
+# original line endings of frozen modules and vendored files.
+* -text

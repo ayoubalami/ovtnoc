@@ -1,0 +1,800 @@
+{
+  "rows": [
+    {
+      "cohort": "validation",
+      "method": "delay_k0_n1",
+      "confirmation_frames": 0,
+      "minimum_observations": 1,
+      "tracks": 36,
+      "pending_tracks": 36,
+      "outcomes": {
+        "early_accepted": 0,
+        "deadline_accepted": 8,
+        "deadline_fresh": 28,
+        "interval_end_fresh": 0,
+        "outside_entry": 0,
+        "accepted_after_deadline": 0,
+        "other_pending": 0,
+        "other_nonpending": 0,
+        "commit_not_logged": 0
+      },
+      "pending_wait": {
+        "count": 36,
+        "p50_s": 0.0,
+        "p95_s": 0.0,
+        "max_s": 0.0
+      },
+      "decision_status": {
+        "accepted": 8,
+        "no_legal_candidate": 28
+      },
+      "blocking_checks": {},
+      "pending_without_diagnostic_fields": 0,
+      "logged_conditions_nonexclusive": {
+        "positive_evidence_shortfall": 0,
+        "zero_legal_candidates": 28,
+        "assignment_ineligible": 0
+      },
+      "last_candidate_evaluation": {
+        "tracks_with_logged_gates": 36,
+        "scanned_messages": 346,
+        "legal_message_edges": 10,
+        "eligible_distinct_ids": 10,
+        "first_rejection_counts": {
+          "active_identity": 22,
+          "appearance_distance": 19,
+          "delivered_after_deadline": 0,
+          "no_entry_observation": 0,
+          "other_destination": 135,
+          "source_descriptor_incompatible": 0,
+          "source_descriptor_missing": 0,
+          "travel_window": 146,
+          "used_message": 14
+        }
+      }
+    },
+    {
+      "cohort": "validation",
+      "method": "delay_k2_n1",
+      "confirmation_frames": 2,
+      "minimum_observations": 1,
+      "tracks": 36,
+      "pending_tracks": 36,
+      "outcomes": {
+        "early_accepted": 9,
+        "deadline_accepted": 0,
+        "deadline_fresh": 27,
+        "interval_end_fresh": 0,
+        "outside_entry": 0,
+        "accepted_after_deadline": 0,
+        "other_pending": 0,
+        "other_nonpending": 0,
+        "commit_not_logged": 0
+      },
+      "pending_wait": {
+        "count": 36,
+        "p50_s": 0.13333333333332575,
+        "p95_s": 0.13333333333333997,
+        "max_s": 0.13333333333333997
+      },
+      "decision_status": {
+        "accepted": 9,
+        "no_legal_candidate": 27
+      },
+      "blocking_checks": {},
+      "pending_without_diagnostic_fields": 0,
+      "logged_conditions_nonexclusive": {
+        "positive_evidence_shortfall": 0,
+        "zero_legal_candidates": 27,
+        "assignment_ineligible": 0
+      },
+      "last_candidate_evaluation": {
+        "tracks_with_logged_gates": 36,
+        "scanned_messages": 348,
+        "legal_message_edges": 11,
+        "eligible_distinct_ids": 11,
+        "first_rejection_counts": {
+          "active_identity": 24,
+          "appearance_distance": 18,
+          "delivered_after_deadline": 0,
+          "no_entry_observation": 0,
+          "other_destination": 135,
+          "source_descriptor_incompatible": 0,
+          "source_descriptor_missing": 0,
+          "travel_window": 146,
+          "used_message": 14
+        }
+      }
+    },
+    {
+      "cohort": "validation",
+      "method": "delay_k4_n1",
+      "confirmation_frames": 4,
+      "minimum_observations": 1,
+      "tracks": 36,
+      "pending_tracks": 36,
+      "outcomes": {
+        "early_accepted": 10,
+        "deadline_accepted": 0,
+        "deadline_fresh": 26,
+        "interval_end_fresh": 0,
+        "outside_entry": 0,
+        "accepted_after_deadline": 0,
+        "other_pending": 0,
+        "other_nonpending": 0,
+        "commit_not_logged": 0
+      },
+      "pending_wait": {
+        "count": 36,
+        "p50_s": 0.26666666666667993,
+        "p95_s": 0.26666666666667993,
+        "max_s": 0.26666666666667993
+      },
+      "decision_status": {
+        "accepted": 10,
+        "no_legal_candidate": 26
+      },
+      "blocking_checks": {},
+      "pending_without_diagnostic_fields": 0,
+      "logged_conditions_nonexclusive": {
+        "positive_evidence_shortfall": 0,
+        "zero_legal_candidates": 26,
+        "assignment_ineligible": 0
+      },
+      "last_candidate_evaluation": {
+        "tracks_with_logged_gates": 36,
+        "scanned_messages": 350,
+        "legal_message_edges": 12,
+        "eligible_distinct_ids": 12,
+        "first_rejection_counts": {
+          "active_identity": 24,
+          "appearance_distance": 17,
+          "delivered_after_deadline": 0,
+          "no_entry_observation": 0,
+          "other_destination": 137,
+          "source_descriptor_incompatible": 0,
+          "source_descriptor_missing": 0,
+          "travel_window": 146,
+          "used_message": 14
+        }
+      }
+    },
+    {
+      "cohort": "validation",
+      "method": "delay_k8_n1",
+      "confirmation_frames": 8,
+      "minimum_observations": 1,
+      "tracks": 36,
+      "pending_tracks": 36,
+      "outcomes": {
+        "early_accepted": 10,
+        "deadline_accepted": 0,
+        "deadline_fresh": 26,
+        "interval_end_fresh": 0,
+        "outside_entry": 0,
+        "accepted_after_deadline": 0,
+        "other_pending": 0,
+        "other_nonpending": 0,
+        "commit_not_logged": 0
+      },
+      "pending_wait": {
+        "count": 36,
+        "p50_s": 0.5333333333333314,
+        "p95_s": 0.5333333333333314,
+        "max_s": 0.5333333333333314
+      },
+      "decision_status": {
+        "accepted": 10,
+        "no_legal_candidate": 26
+      },
+      "blocking_checks": {},
+      "pending_without_diagnostic_fields": 0,
+      "logged_conditions_nonexclusive": {
+        "positive_evidence_shortfall": 0,
+        "zero_legal_candidates": 26,
+        "assignment_ineligible": 0
+      },
+      "last_candidate_evaluation": {
+        "tracks_with_logged_gates": 36,
+        "scanned_messages": 353,
+        "legal_message_edges": 12,
+        "eligible_distinct_ids": 12,
+        "first_rejection_counts": {
+          "active_identity": 22,
+          "appearance_distance": 17,
+          "delivered_after_deadline": 0,
+          "no_entry_observation": 0,
+          "other_destination": 139,
+          "source_descriptor_incompatible": 0,
+          "source_descriptor_missing": 0,
+          "travel_window": 149,
+          "used_message": 14
+        }
+      }
+    },
+    {
+      "cohort": "validation",
+      "method": "evidence_k8_n2",
+      "confirmation_frames": 8,
+      "minimum_observations": 2,
+      "tracks": 36,
+      "pending_tracks": 36,
+      "outcomes": {
+        "early_accepted": 10,
+        "deadline_accepted": 0,
+        "deadline_fresh": 26,
+        "interval_end_fresh": 0,
+        "outside_entry": 0,
+        "accepted_after_deadline": 0,
+        "other_pending": 0,
+        "other_nonpending": 0,
+        "commit_not_logged": 0
+      },
+      "pending_wait": {
+        "count": 36,
+        "p50_s": 0.5333333333333314,
+        "p95_s": 0.5333333333333314,
+        "max_s": 0.5333333333333314
+      },
+      "decision_status": {
+        "accepted": 10,
+        "no_legal_candidate": 26
+      },
+      "blocking_checks": {},
+      "pending_without_diagnostic_fields": 0,
+      "logged_conditions_nonexclusive": {
+        "positive_evidence_shortfall": 0,
+        "zero_legal_candidates": 26,
+        "assignment_ineligible": 0
+      },
+      "last_candidate_evaluation": {
+        "tracks_with_logged_gates": 36,
+        "scanned_messages": 353,
+        "legal_message_edges": 12,
+        "eligible_distinct_ids": 12,
+        "first_rejection_counts": {
+          "active_identity": 22,
+          "appearance_distance": 17,
+          "delivered_after_deadline": 0,
+          "no_entry_observation": 0,
+          "other_destination": 139,
+          "source_descriptor_incompatible": 0,
+          "source_descriptor_missing": 0,
+          "travel_window": 149,
+          "used_message": 14
+        }
+      }
+    },
+    {
+      "cohort": "test",
+      "method": "delay_k0_n1",
+      "confirmation_frames": 0,
+      "minimum_observations": 1,
+      "tracks": 30,
+      "pending_tracks": 30,
+      "outcomes": {
+        "early_accepted": 0,
+        "deadline_accepted": 9,
+        "deadline_fresh": 21,
+        "interval_end_fresh": 0,
+        "outside_entry": 0,
+        "accepted_after_deadline": 0,
+        "other_pending": 0,
+        "other_nonpending": 0,
+        "commit_not_logged": 0
+      },
+      "pending_wait": {
+        "count": 30,
+        "p50_s": 0.0,
+        "p95_s": 0.0,
+        "max_s": 0.0
+      },
+      "decision_status": {
+        "accepted": 9,
+        "no_legal_candidate": 21
+      },
+      "blocking_checks": {},
+      "pending_without_diagnostic_fields": 0,
+      "logged_conditions_nonexclusive": {
+        "positive_evidence_shortfall": 0,
+        "zero_legal_candidates": 21,
+        "assignment_ineligible": 0
+      },
+      "last_candidate_evaluation": {
+        "tracks_with_logged_gates": 30,
+        "scanned_messages": 221,
+        "legal_message_edges": 10,
+        "eligible_distinct_ids": 10,
+        "first_rejection_counts": {
+          "active_identity": 6,
+          "appearance_distance": 7,
+          "delivered_after_deadline": 0,
+          "no_entry_observation": 0,
+          "other_destination": 94,
+          "source_descriptor_incompatible": 0,
+          "source_descriptor_missing": 0,
+          "travel_window": 90,
+          "used_message": 14
+        }
+      }
+    },
+    {
+      "cohort": "test",
+      "method": "delay_k2_n1",
+      "confirmation_frames": 2,
+      "minimum_observations": 1,
+      "tracks": 30,
+      "pending_tracks": 30,
+      "outcomes": {
+        "early_accepted": 9,
+        "deadline_accepted": 0,
+        "deadline_fresh": 21,
+        "interval_end_fresh": 0,
+        "outside_entry": 0,
+        "accepted_after_deadline": 0,
+        "other_pending": 0,
+        "other_nonpending": 0,
+        "commit_not_logged": 0
+      },
+      "pending_wait": {
+        "count": 30,
+        "p50_s": 0.13333333333332575,
+        "p95_s": 0.13333333333332575,
+        "max_s": 0.13333333333332575
+      },
+      "decision_status": {
+        "accepted": 9,
+        "no_legal_candidate": 21
+      },
+      "blocking_checks": {},
+      "pending_without_diagnostic_fields": 0,
+      "logged_conditions_nonexclusive": {
+        "positive_evidence_shortfall": 0,
+        "zero_legal_candidates": 21,
+        "assignment_ineligible": 0
+      },
+      "last_candidate_evaluation": {
+        "tracks_with_logged_gates": 30,
+        "scanned_messages": 222,
+        "legal_message_edges": 10,
+        "eligible_distinct_ids": 10,
+        "first_rejection_counts": {
+          "active_identity": 6,
+          "appearance_distance": 7,
+          "delivered_after_deadline": 0,
+          "no_entry_observation": 0,
+          "other_destination": 95,
+          "source_descriptor_incompatible": 0,
+          "source_descriptor_missing": 0,
+          "travel_window": 90,
+          "used_message": 14
+        }
+      }
+    },
+    {
+      "cohort": "test",
+      "method": "delay_k4_n1",
+      "confirmation_frames": 4,
+      "minimum_observations": 1,
+      "tracks": 30,
+      "pending_tracks": 30,
+      "outcomes": {
+        "early_accepted": 9,
+        "deadline_accepted": 0,
+        "deadline_fresh": 21,
+        "interval_end_fresh": 0,
+        "outside_entry": 0,
+        "accepted_after_deadline": 0,
+        "other_pending": 0,
+        "other_nonpending": 0,
+        "commit_not_logged": 0
+      },
+      "pending_wait": {
+        "count": 30,
+        "p50_s": 0.2666666666666515,
+        "p95_s": 0.2666666666666515,
+        "max_s": 0.2666666666666515
+      },
+      "decision_status": {
+        "accepted": 9,
+        "no_legal_candidate": 21
+      },
+      "blocking_checks": {},
+      "pending_without_diagnostic_fields": 0,
+      "logged_conditions_nonexclusive": {
+        "positive_evidence_shortfall": 0,
+        "zero_legal_candidates": 21,
+        "assignment_ineligible": 0
+      },
+      "last_candidate_evaluation": {
+        "tracks_with_logged_gates": 30,
+        "scanned_messages": 223,
+        "legal_message_edges": 10,
+        "eligible_distinct_ids": 10,
+        "first_rejection_counts": {
+          "active_identity": 6,
+          "appearance_distance": 7,
+          "delivered_after_deadline": 0,
+          "no_entry_observation": 0,
+          "other_destination": 96,
+          "source_descriptor_incompatible": 0,
+          "source_descriptor_missing": 0,
+          "travel_window": 90,
+          "used_message": 14
+        }
+      }
+    },
+    {
+      "cohort": "test",
+      "method": "delay_k8_n1",
+      "confirmation_frames": 8,
+      "minimum_observations": 1,
+      "tracks": 30,
+      "pending_tracks": 30,
+      "outcomes": {
+        "early_accepted": 10,
+        "deadline_accepted": 0,
+        "deadline_fresh": 20,
+        "interval_end_fresh": 0,
+        "outside_entry": 0,
+        "accepted_after_deadline": 0,
+        "other_pending": 0,
+        "other_nonpending": 0,
+        "commit_not_logged": 0
+      },
+      "pending_wait": {
+        "count": 30,
+        "p50_s": 0.533333333333303,
+        "p95_s": 0.533333333333303,
+        "max_s": 0.533333333333303
+      },
+      "decision_status": {
+        "accepted": 10,
+        "no_legal_candidate": 20
+      },
+      "blocking_checks": {},
+      "pending_without_diagnostic_fields": 0,
+      "logged_conditions_nonexclusive": {
+        "positive_evidence_shortfall": 0,
+        "zero_legal_candidates": 20,
+        "assignment_ineligible": 0
+      },
+      "last_candidate_evaluation": {
+        "tracks_with_logged_gates": 30,
+        "scanned_messages": 223,
+        "legal_message_edges": 11,
+        "eligible_distinct_ids": 11,
+        "first_rejection_counts": {
+          "active_identity": 6,
+          "appearance_distance": 6,
+          "delivered_after_deadline": 0,
+          "no_entry_observation": 0,
+          "other_destination": 96,
+          "source_descriptor_incompatible": 0,
+          "source_descriptor_missing": 0,
+          "travel_window": 90,
+          "used_message": 14
+        }
+      }
+    },
+    {
+      "cohort": "test",
+      "method": "evidence_k8_n2",
+      "confirmation_frames": 8,
+      "minimum_observations": 2,
+      "tracks": 30,
+      "pending_tracks": 30,
+      "outcomes": {
+        "early_accepted": 10,
+        "deadline_accepted": 0,
+        "deadline_fresh": 20,
+        "interval_end_fresh": 0,
+        "outside_entry": 0,
+        "accepted_after_deadline": 0,
+        "other_pending": 0,
+        "other_nonpending": 0,
+        "commit_not_logged": 0
+      },
+      "pending_wait": {
+        "count": 30,
+        "p50_s": 0.533333333333303,
+        "p95_s": 0.533333333333303,
+        "max_s": 0.533333333333303
+      },
+      "decision_status": {
+        "accepted": 10,
+        "no_legal_candidate": 20
+      },
+      "blocking_checks": {},
+      "pending_without_diagnostic_fields": 0,
+      "logged_conditions_nonexclusive": {
+        "positive_evidence_shortfall": 0,
+        "zero_legal_candidates": 20,
+        "assignment_ineligible": 0
+      },
+      "last_candidate_evaluation": {
+        "tracks_with_logged_gates": 30,
+        "scanned_messages": 222,
+        "legal_message_edges": 11,
+        "eligible_distinct_ids": 11,
+        "first_rejection_counts": {
+          "active_identity": 6,
+          "appearance_distance": 6,
+          "delivered_after_deadline": 0,
+          "no_entry_observation": 0,
+          "other_destination": 95,
+          "source_descriptor_incompatible": 0,
+          "source_descriptor_missing": 0,
+          "travel_window": 90,
+          "used_message": 14
+        }
+      }
+    },
+    {
+      "cohort": "all4",
+      "method": "delay_k0_n1",
+      "confirmation_frames": 0,
+      "minimum_observations": 1,
+      "tracks": 181,
+      "pending_tracks": 181,
+      "outcomes": {
+        "early_accepted": 0,
+        "deadline_accepted": 105,
+        "deadline_fresh": 76,
+        "interval_end_fresh": 0,
+        "outside_entry": 0,
+        "accepted_after_deadline": 0,
+        "other_pending": 0,
+        "other_nonpending": 0,
+        "commit_not_logged": 0
+      },
+      "pending_wait": {
+        "count": 181,
+        "p50_s": 0.0,
+        "p95_s": 0.0,
+        "max_s": 0.0
+      },
+      "decision_status": {
+        "accepted": 105,
+        "no_legal_candidate": 76
+      },
+      "blocking_checks": {},
+      "pending_without_diagnostic_fields": 0,
+      "logged_conditions_nonexclusive": {
+        "positive_evidence_shortfall": 0,
+        "zero_legal_candidates": 76,
+        "assignment_ineligible": 0
+      },
+      "last_candidate_evaluation": {
+        "tracks_with_logged_gates": 181,
+        "scanned_messages": 10054,
+        "legal_message_edges": 130,
+        "eligible_distinct_ids": 130,
+        "first_rejection_counts": {
+          "active_identity": 67,
+          "appearance_distance": 183,
+          "delivered_after_deadline": 0,
+          "no_entry_observation": 1041,
+          "other_destination": 6402,
+          "source_descriptor_incompatible": 0,
+          "source_descriptor_missing": 0,
+          "travel_window": 1178,
+          "used_message": 1053
+        }
+      }
+    },
+    {
+      "cohort": "all4",
+      "method": "delay_k2_n1",
+      "confirmation_frames": 2,
+      "minimum_observations": 1,
+      "tracks": 181,
+      "pending_tracks": 181,
+      "outcomes": {
+        "early_accepted": 106,
+        "deadline_accepted": 0,
+        "deadline_fresh": 75,
+        "interval_end_fresh": 0,
+        "outside_entry": 0,
+        "accepted_after_deadline": 0,
+        "other_pending": 0,
+        "other_nonpending": 0,
+        "commit_not_logged": 0
+      },
+      "pending_wait": {
+        "count": 181,
+        "p50_s": 0.0,
+        "p95_s": 0.13333333333332575,
+        "max_s": 0.13333333333332575
+      },
+      "decision_status": {
+        "accepted": 106,
+        "no_legal_candidate": 75
+      },
+      "blocking_checks": {},
+      "pending_without_diagnostic_fields": 0,
+      "logged_conditions_nonexclusive": {
+        "positive_evidence_shortfall": 0,
+        "zero_legal_candidates": 75,
+        "assignment_ineligible": 0
+      },
+      "last_candidate_evaluation": {
+        "tracks_with_logged_gates": 181,
+        "scanned_messages": 10052,
+        "legal_message_edges": 131,
+        "eligible_distinct_ids": 131,
+        "first_rejection_counts": {
+          "active_identity": 64,
+          "appearance_distance": 181,
+          "delivered_after_deadline": 0,
+          "no_entry_observation": 1041,
+          "other_destination": 6405,
+          "source_descriptor_incompatible": 0,
+          "source_descriptor_missing": 0,
+          "travel_window": 1180,
+          "used_message": 1050
+        }
+      }
+    },
+    {
+      "cohort": "all4",
+      "method": "delay_k4_n1",
+      "confirmation_frames": 4,
+      "minimum_observations": 1,
+      "tracks": 181,
+      "pending_tracks": 181,
+      "outcomes": {
+        "early_accepted": 106,
+        "deadline_accepted": 0,
+        "deadline_fresh": 75,
+        "interval_end_fresh": 0,
+        "outside_entry": 0,
+        "accepted_after_deadline": 0,
+        "other_pending": 0,
+        "other_nonpending": 0,
+        "commit_not_logged": 0
+      },
+      "pending_wait": {
+        "count": 181,
+        "p50_s": 0.0,
+        "p95_s": 0.2666666666666515,
+        "max_s": 0.2666666666666515
+      },
+      "decision_status": {
+        "accepted": 106,
+        "no_legal_candidate": 75
+      },
+      "blocking_checks": {},
+      "pending_without_diagnostic_fields": 0,
+      "logged_conditions_nonexclusive": {
+        "positive_evidence_shortfall": 0,
+        "zero_legal_candidates": 75,
+        "assignment_ineligible": 0
+      },
+      "last_candidate_evaluation": {
+        "tracks_with_logged_gates": 181,
+        "scanned_messages": 10051,
+        "legal_message_edges": 131,
+        "eligible_distinct_ids": 131,
+        "first_rejection_counts": {
+          "active_identity": 67,
+          "appearance_distance": 181,
+          "delivered_after_deadline": 0,
+          "no_entry_observation": 1040,
+          "other_destination": 6400,
+          "source_descriptor_incompatible": 0,
+          "source_descriptor_missing": 0,
+          "travel_window": 1181,
+          "used_message": 1051
+        }
+      }
+    },
+    {
+      "cohort": "all4",
+      "method": "delay_k8_n1",
+      "confirmation_frames": 8,
+      "minimum_observations": 1,
+      "tracks": 181,
+      "pending_tracks": 181,
+      "outcomes": {
+        "early_accepted": 106,
+        "deadline_accepted": 1,
+        "deadline_fresh": 73,
+        "interval_end_fresh": 1,
+        "outside_entry": 0,
+        "accepted_after_deadline": 0,
+        "other_pending": 0,
+        "other_nonpending": 0,
+        "commit_not_logged": 0
+      },
+      "pending_wait": {
+        "count": 181,
+        "p50_s": 0.0,
+        "p95_s": 0.5333333333333599,
+        "max_s": 0.5333333333333599
+      },
+      "decision_status": {
+        "accepted": 107,
+        "no_legal_candidate": 74
+      },
+      "blocking_checks": {},
+      "pending_without_diagnostic_fields": 0,
+      "logged_conditions_nonexclusive": {
+        "positive_evidence_shortfall": 0,
+        "zero_legal_candidates": 74,
+        "assignment_ineligible": 0
+      },
+      "last_candidate_evaluation": {
+        "tracks_with_logged_gates": 181,
+        "scanned_messages": 10050,
+        "legal_message_edges": 132,
+        "eligible_distinct_ids": 132,
+        "first_rejection_counts": {
+          "active_identity": 63,
+          "appearance_distance": 180,
+          "delivered_after_deadline": 0,
+          "no_entry_observation": 1041,
+          "other_destination": 6397,
+          "source_descriptor_incompatible": 0,
+          "source_descriptor_missing": 0,
+          "travel_window": 1184,
+          "used_message": 1053
+        }
+      }
+    },
+    {
+      "cohort": "all4",
+      "method": "evidence_k8_n2",
+      "confirmation_frames": 8,
+      "minimum_observations": 2,
+      "tracks": 181,
+      "pending_tracks": 181,
+      "outcomes": {
+        "early_accepted": 107,
+        "deadline_accepted": 1,
+        "deadline_fresh": 72,
+        "interval_end_fresh": 1,
+        "outside_entry": 0,
+        "accepted_after_deadline": 0,
+        "other_pending": 0,
+        "other_nonpending": 0,
+        "commit_not_logged": 0
+      },
+      "pending_wait": {
+        "count": 181,
+        "p50_s": 0.06666666666666288,
+        "p95_s": 0.5333333333333599,
+        "max_s": 0.5333333333333599
+      },
+      "decision_status": {
+        "accepted": 108,
+        "no_legal_candidate": 73
+      },
+      "blocking_checks": {},
+      "pending_without_diagnostic_fields": 0,
+      "logged_conditions_nonexclusive": {
+        "positive_evidence_shortfall": 0,
+        "zero_legal_candidates": 73,
+        "assignment_ineligible": 0
+      },
+      "last_candidate_evaluation": {
+        "tracks_with_logged_gates": 181,
+        "scanned_messages": 10051,
+        "legal_message_edges": 136,
+        "eligible_distinct_ids": 136,
+        "first_rejection_counts": {
+          "active_identity": 61,
+          "appearance_distance": 173,
+          "delivered_after_deadline": 0,
+          "no_entry_observation": 1041,
+          "other_destination": 6396,
+          "source_descriptor_incompatible": 0,
+          "source_descriptor_missing": 0,
+          "travel_window": 1186,
+          "used_message": 1058
+        }
+      }
+    }
+  ],
+  "note": "Scored pending entrant cohort only. Logged acceptance is not GT correctness; the K8/n2 control is separate."
+}

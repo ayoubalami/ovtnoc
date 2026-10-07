@@ -1,0 +1,1348 @@
+{
+  "version": "cityflow_holdout_v0_6",
+  "status": "holdout_scene_routes_and_intervals_frozen_pending_development_model_selection",
+  "dataset_root": "${CITYFLOW_ROOT}",
+  "split": "validation",
+  "scenario": "S05",
+  "calibration_interval_s": [
+    0.0,
+    120.0
+  ],
+  "cameras": [
+    29,
+    33,
+    34,
+    35
+  ],
+  "routes": [
+    {
+      "source": 29,
+      "destination": 33,
+      "exit_polygon": [
+        [
+          0.05973958333333334,
+          0.5275925925925925
+        ],
+        [
+          0.4535416666666666,
+          0.5275925925925925
+        ],
+        [
+          0.4535416666666666,
+          0.8640740740740741
+        ],
+        [
+          0.05973958333333334,
+          0.8640740740740741
+        ]
+      ],
+      "entry_polygon": [
+        [
+          0.625625,
+          0.8127777777777777
+        ],
+        [
+          0.9639583333333334,
+          0.8127777777777777
+        ],
+        [
+          0.9639583333333334,
+          1.0
+        ],
+        [
+          0.625625,
+          1.0
+        ]
+      ],
+      "direction": [
+        -0.6734104426282651,
+        0.7392688115693803
+      ],
+      "travel_time_s": [
+        12.849999999999996,
+        17.85
+      ]
+    },
+    {
+      "source": 33,
+      "destination": 34,
+      "exit_polygon": [
+        [
+          0.42432291666666666,
+          0.18037037037037038
+        ],
+        [
+          0.936875,
+          0.18037037037037038
+        ],
+        [
+          0.936875,
+          0.8187037037037037
+        ],
+        [
+          0.42432291666666666,
+          0.8187037037037037
+        ]
+      ],
+      "entry_polygon": [
+        [
+          0.13916666666666666,
+          0.17574074074074073
+        ],
+        [
+          0.9483333333333334,
+          0.17574074074074073
+        ],
+        [
+          0.9483333333333334,
+          0.5751851851851852
+        ],
+        [
+          0.13916666666666666,
+          0.5751851851851852
+        ]
+      ],
+      "direction": [
+        -0.26066585229076383,
+        -0.9654290825583876
+      ],
+      "travel_time_s": [
+        4.660000000000004,
+        9.539999999999994
+      ]
+    },
+    {
+      "source": 34,
+      "destination": 29,
+      "exit_polygon": [
+        [
+          0.23421875,
+          0.14703703703703702
+        ],
+        [
+          0.4730729166666666,
+          0.14703703703703702
+        ],
+        [
+          0.4730729166666666,
+          0.3011111111111111
+        ],
+        [
+          0.23421875,
+          0.3011111111111111
+        ]
+      ],
+      "entry_polygon": [
+        [
+          0.43786458333333333,
+          0.96
+        ],
+        [
+          0.5845312500000001,
+          0.96
+        ],
+        [
+          0.5845312500000001,
+          1.0
+        ],
+        [
+          0.43786458333333333,
+          1.0
+        ]
+      ],
+      "direction": [
+        -0.9051624503889549,
+        -0.42506580479481376
+      ],
+      "travel_time_s": [
+        8.874999999999998,
+        12.749999999999998
+      ]
+    },
+    {
+      "source": 34,
+      "destination": 35,
+      "exit_polygon": [
+        [
+          0.8238020833333333,
+          0.5461111111111111
+        ],
+        [
+          0.9467708333333333,
+          0.5461111111111111
+        ],
+        [
+          0.9467708333333333,
+          0.8362962962962963
+        ],
+        [
+          0.8238020833333333,
+          0.8362962962962963
+        ]
+      ],
+      "entry_polygon": [
+        [
+          0.007656249999999996,
+          0.5488888888888889
+        ],
+        [
+          0.11005208333333333,
+          0.5488888888888889
+        ],
+        [
+          0.11005208333333333,
+          0.7770370370370371
+        ],
+        [
+          0.007656249999999996,
+          0.7770370370370371
+        ]
+      ],
+      "direction": [
+        0.6790419816174277,
+        0.7340994395864071
+      ],
+      "travel_time_s": [
+        1.9399999999999982,
+        12.67499999999999
+      ]
+    }
+  ],
+  "fitted_prefix_crossings": 36,
+  "supported_routes": 4,
+  "replay_start_s": 120.0,
+  "score_start_s": 160.0,
+  "stop_s": 340.0,
+  "warmup_s": 40.0,
+  "maximum_route_upper_s": 17.85,
+  "prefix_topology_cameras": [
+    10,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    33,
+    34,
+    35,
+    36
+  ],
+  "prefix_gt_rows_read": 48823,
+  "prefix_read_manifest": {
+    "10": {
+      "file": "${CITYFLOW_ROOT}/validation/S05/c010/gt/gt.txt",
+      "rows_read": 1061,
+      "interpreted_prefix_sha256": "b521c77b9f02b4bc27b6b1816cf311650b55b2250397143f4d24ede29c2c54ec",
+      "first_outside_frame_column_only": 1201,
+      "last_interpreted_frame1": 1200,
+      "stop_s_exclusive": 120.0
+    },
+    "16": {
+      "file": "${CITYFLOW_ROOT}/validation/S05/c016/gt/gt.txt",
+      "rows_read": 3516,
+      "interpreted_prefix_sha256": "6c26fce4e43fa15cfef2fe17f62877c0fd8de10295e21641cea87febd99cd0a9",
+      "first_outside_frame_column_only": 1201,
+      "last_interpreted_frame1": 1200,
+      "stop_s_exclusive": 120.0
+    },
+    "17": {
+      "file": "${CITYFLOW_ROOT}/validation/S05/c017/gt/gt.txt",
+      "rows_read": 1897,
+      "interpreted_prefix_sha256": "fc6237b9dc32b2972f3d1cfa22665f87ea86ff13b61de6810b0041c24d2a03e9",
+      "first_outside_frame_column_only": 1201,
+      "last_interpreted_frame1": 1200,
+      "stop_s_exclusive": 120.0
+    },
+    "18": {
+      "file": "${CITYFLOW_ROOT}/validation/S05/c018/gt/gt.txt",
+      "rows_read": 675,
+      "interpreted_prefix_sha256": "5ed0848f73cceaf9238014269dde66e46dbfcce6cc0857db4cc860fc761cc3c7",
+      "first_outside_frame_column_only": 1213,
+      "last_interpreted_frame1": 1196,
+      "stop_s_exclusive": 120.0
+    },
+    "19": {
+      "file": "${CITYFLOW_ROOT}/validation/S05/c019/gt/gt.txt",
+      "rows_read": 213,
+      "interpreted_prefix_sha256": "b73d93bfd8f55a0a0025ee9fee539f3fb8dd4e44250683ba2df4c6d6468d1002",
+      "first_outside_frame_column_only": 1246,
+      "last_interpreted_frame1": 1198,
+      "stop_s_exclusive": 120.0
+    },
+    "20": {
+      "file": "${CITYFLOW_ROOT}/validation/S05/c020/gt/gt.txt",
+      "rows_read": 716,
+      "interpreted_prefix_sha256": "b1211143fa6953a59bcc0f00e4b5d6fe1952d4189ba81b6e0ad3d17006c0b569",
+      "first_outside_frame_column_only": 1201,
+      "last_interpreted_frame1": 1200,
+      "stop_s_exclusive": 120.0
+    },
+    "21": {
+      "file": "${CITYFLOW_ROOT}/validation/S05/c021/gt/gt.txt",
+      "rows_read": 1581,
+      "interpreted_prefix_sha256": "985c692f47e73b0165600982554b57588e91d8455d57449cfc329df8603697a7",
+      "first_outside_frame_column_only": 1201,
+      "last_interpreted_frame1": 1200,
+      "stop_s_exclusive": 120.0
+    },
+    "22": {
+      "file": "${CITYFLOW_ROOT}/validation/S05/c022/gt/gt.txt",
+      "rows_read": 3843,
+      "interpreted_prefix_sha256": "9c16316b6f9a6cc2a5f6a4d7b6e042b9cdf93f5da25d14f3bfbc5d0c2e872bd6",
+      "first_outside_frame_column_only": 1201,
+      "last_interpreted_frame1": 1200,
+      "stop_s_exclusive": 120.0
+    },
+    "23": {
+      "file": "${CITYFLOW_ROOT}/validation/S05/c023/gt/gt.txt",
+      "rows_read": 1366,
+      "interpreted_prefix_sha256": "95a330e87dd43b111c913cb862d2622b10a786a9ff24da9eb86aa6900b8e8d81",
+      "first_outside_frame_column_only": 1201,
+      "last_interpreted_frame1": 1200,
+      "stop_s_exclusive": 120.0
+    },
+    "24": {
+      "file": "${CITYFLOW_ROOT}/validation/S05/c024/gt/gt.txt",
+      "rows_read": 271,
+      "interpreted_prefix_sha256": "2ea2f27627ad67a68d078afc3c920e98d280eadc53c6c34a4b91995e5f12e847",
+      "first_outside_frame_column_only": 1235,
+      "last_interpreted_frame1": 1124,
+      "stop_s_exclusive": 120.0
+    },
+    "25": {
+      "file": "${CITYFLOW_ROOT}/validation/S05/c025/gt/gt.txt",
+      "rows_read": 1663,
+      "interpreted_prefix_sha256": "fef51fcac4b6646cca9779329e7c48590034e85cfc305a845a2dfc7f521fae37",
+      "first_outside_frame_column_only": 1201,
+      "last_interpreted_frame1": 1200,
+      "stop_s_exclusive": 120.0
+    },
+    "26": {
+      "file": "${CITYFLOW_ROOT}/validation/S05/c026/gt/gt.txt",
+      "rows_read": 3423,
+      "interpreted_prefix_sha256": "6123d3f97b9b0f6a280f2a995fda68d3cc569286c069a74d411b05f2f8727dd0",
+      "first_outside_frame_column_only": 1201,
+      "last_interpreted_frame1": 1200,
+      "stop_s_exclusive": 120.0
+    },
+    "27": {
+      "file": "${CITYFLOW_ROOT}/validation/S05/c027/gt/gt.txt",
+      "rows_read": 2138,
+      "interpreted_prefix_sha256": "9f9b6e11fe7b3b4817da067fbe2907073ab07d0409542b486acfe28256a410a9",
+      "first_outside_frame_column_only": 1201,
+      "last_interpreted_frame1": 1200,
+      "stop_s_exclusive": 120.0
+    },
+    "28": {
+      "file": "${CITYFLOW_ROOT}/validation/S05/c028/gt/gt.txt",
+      "rows_read": 3005,
+      "interpreted_prefix_sha256": "0f4bc82dd3e90611add378fecc8c526d7e3e520af5179f53c310bdda83c83ddb",
+      "first_outside_frame_column_only": 1201,
+      "last_interpreted_frame1": 1200,
+      "stop_s_exclusive": 120.0
+    },
+    "29": {
+      "file": "${CITYFLOW_ROOT}/validation/S05/c029/gt/gt.txt",
+      "rows_read": 3916,
+      "interpreted_prefix_sha256": "f2ed3a555afb654aee038638e06b54f199236b0d909f2a74e91af8f18d7314d6",
+      "first_outside_frame_column_only": 1201,
+      "last_interpreted_frame1": 1200,
+      "stop_s_exclusive": 120.0
+    },
+    "33": {
+      "file": "${CITYFLOW_ROOT}/validation/S05/c033/gt/gt.txt",
+      "rows_read": 7239,
+      "interpreted_prefix_sha256": "433388bd9b48554bad99ccf9a7d2fbaec7dfcd45e65723b040b06e2e765ae319",
+      "first_outside_frame_column_only": 1201,
+      "last_interpreted_frame1": 1200,
+      "stop_s_exclusive": 120.0
+    },
+    "34": {
+      "file": "${CITYFLOW_ROOT}/validation/S05/c034/gt/gt.txt",
+      "rows_read": 5213,
+      "interpreted_prefix_sha256": "68dbfe6daa105128f8a256a2510462673326d23b72194f194cbf88b1a3cde403",
+      "first_outside_frame_column_only": 1201,
+      "last_interpreted_frame1": 1200,
+      "stop_s_exclusive": 120.0
+    },
+    "35": {
+      "file": "${CITYFLOW_ROOT}/validation/S05/c035/gt/gt.txt",
+      "rows_read": 3476,
+      "interpreted_prefix_sha256": "430816a0ed4015c18d71e1bd3b1eb885a534d2c91dd72d61ebeb8c9022588ccc",
+      "first_outside_frame_column_only": 1201,
+      "last_interpreted_frame1": 1200,
+      "stop_s_exclusive": 120.0
+    },
+    "36": {
+      "file": "${CITYFLOW_ROOT}/validation/S05/c036/gt/gt.txt",
+      "rows_read": 3611,
+      "interpreted_prefix_sha256": "d766baba8f9ccdefdf9eb3975142311e3406a64637da34c0541293eed3f512e2",
+      "first_outside_frame_column_only": 1201,
+      "last_interpreted_frame1": 1200,
+      "stop_s_exclusive": 120.0
+    }
+  },
+  "selection_rule": "Exactly four cameras; maximize fitted positive-gap prefix crossings, then number of supported routes, then lexicographically smaller camera IDs. Score 180 seconds ending at min(360, floor(shortest camera duration)); require warmup >= maximum route upper +3.8 seconds.",
+  "minimum_calibration_transitions_and_crossings": 5,
+  "calibration_rules": "Full-scene contiguous prefix GT topology precedes route/subset selection; positive visibility gap; spans >=5 observations; exclude recording/prefix censored spans; endpoint extrema +/-0.04 normalized padding; median five-frame velocity; first directional exit-zone crossing; travel quantiles 0.05/0.95 +/-0.1 seconds.",
+  "all_prefix_route_statistics": [
+    {
+      "source": 10,
+      "destination": 17,
+      "usable_prefix_transitions": 2,
+      "status": "insufficient_transitions"
+    },
+    {
+      "source": 16,
+      "destination": 17,
+      "usable_prefix_transitions": 8,
+      "fitted_crossings": 8,
+      "status": "supported",
+      "travel_time_s": [
+        4.500000000000004,
+        5.394999999999998
+      ],
+      "median_travel_s": 4.7500000000000036,
+      "crossings": [
+        {
+          "id": 332,
+          "source_frame1": 41,
+          "destination_frame1": 95,
+          "travel_s": 5.4
+        },
+        {
+          "id": 336,
+          "source_frame1": 357,
+          "destination_frame1": 403,
+          "travel_s": 4.600000000000001
+        },
+        {
+          "id": 338,
+          "source_frame1": 414,
+          "destination_frame1": 461,
+          "travel_s": 4.700000000000003
+        },
+        {
+          "id": 397,
+          "source_frame1": 545,
+          "destination_frame1": 593,
+          "travel_s": 4.800000000000004
+        },
+        {
+          "id": 347,
+          "source_frame1": 934,
+          "destination_frame1": 983,
+          "travel_s": 4.900000000000006
+        },
+        {
+          "id": 349,
+          "source_frame1": 1054,
+          "destination_frame1": 1101,
+          "travel_s": 4.700000000000003
+        },
+        {
+          "id": 348,
+          "source_frame1": 992,
+          "destination_frame1": 1038,
+          "travel_s": 4.6000000000000085
+        },
+        {
+          "id": 398,
+          "source_frame1": 1116,
+          "destination_frame1": 1167,
+          "travel_s": 5.099999999999994
+        }
+      ]
+    },
+    {
+      "source": 17,
+      "destination": 10,
+      "usable_prefix_transitions": 4,
+      "status": "insufficient_transitions"
+    },
+    {
+      "source": 17,
+      "destination": 16,
+      "usable_prefix_transitions": 1,
+      "status": "insufficient_transitions"
+    },
+    {
+      "source": 17,
+      "destination": 18,
+      "usable_prefix_transitions": 4,
+      "status": "insufficient_transitions"
+    },
+    {
+      "source": 18,
+      "destination": 20,
+      "usable_prefix_transitions": 7,
+      "fitted_crossings": 7,
+      "status": "supported",
+      "travel_time_s": [
+        2.9999999999999964,
+        3.4000000000000004
+      ],
+      "median_travel_s": 3.2,
+      "crossings": [
+        {
+          "id": 332,
+          "source_frame1": 253,
+          "destination_frame1": 286,
+          "travel_s": 3.3000000000000007
+        },
+        {
+          "id": 333,
+          "source_frame1": 275,
+          "destination_frame1": 307,
+          "travel_s": 3.200000000000003
+        },
+        {
+          "id": 336,
+          "source_frame1": 565,
+          "destination_frame1": 596,
+          "travel_s": 3.1000000000000014
+        },
+        {
+          "id": 338,
+          "source_frame1": 636,
+          "destination_frame1": 667,
+          "travel_s": 3.0999999999999943
+        },
+        {
+          "id": 397,
+          "source_frame1": 769,
+          "destination_frame1": 800,
+          "travel_s": 3.1000000000000085
+        },
+        {
+          "id": 396,
+          "source_frame1": 85,
+          "destination_frame1": 118,
+          "travel_s": 3.299999999999999
+        },
+        {
+          "id": 420,
+          "source_frame1": 44,
+          "destination_frame1": 76,
+          "travel_s": 3.2
+        }
+      ]
+    },
+    {
+      "source": 19,
+      "destination": 21,
+      "usable_prefix_transitions": 3,
+      "status": "insufficient_transitions"
+    },
+    {
+      "source": 19,
+      "destination": 22,
+      "usable_prefix_transitions": 1,
+      "status": "insufficient_transitions"
+    },
+    {
+      "source": 21,
+      "destination": 22,
+      "usable_prefix_transitions": 4,
+      "status": "insufficient_transitions"
+    },
+    {
+      "source": 22,
+      "destination": 21,
+      "usable_prefix_transitions": 1,
+      "status": "insufficient_transitions"
+    },
+    {
+      "source": 23,
+      "destination": 21,
+      "usable_prefix_transitions": 1,
+      "status": "insufficient_transitions"
+    },
+    {
+      "source": 23,
+      "destination": 22,
+      "usable_prefix_transitions": 1,
+      "status": "insufficient_transitions"
+    },
+    {
+      "source": 23,
+      "destination": 24,
+      "usable_prefix_transitions": 2,
+      "status": "insufficient_transitions"
+    },
+    {
+      "source": 23,
+      "destination": 25,
+      "usable_prefix_transitions": 4,
+      "status": "insufficient_transitions"
+    },
+    {
+      "source": 24,
+      "destination": 25,
+      "usable_prefix_transitions": 1,
+      "status": "insufficient_transitions"
+    },
+    {
+      "source": 24,
+      "destination": 26,
+      "usable_prefix_transitions": 2,
+      "status": "insufficient_transitions"
+    },
+    {
+      "source": 25,
+      "destination": 22,
+      "usable_prefix_transitions": 7,
+      "fitted_crossings": 7,
+      "status": "supported",
+      "travel_time_s": [
+        3.3299999999999987,
+        4.200000000000001
+      ],
+      "median_travel_s": 3.5,
+      "crossings": [
+        {
+          "id": 345,
+          "source_frame1": 123,
+          "destination_frame1": 158,
+          "travel_s": 3.5
+        },
+        {
+          "id": 422,
+          "source_frame1": 430,
+          "destination_frame1": 471,
+          "travel_s": 4.100000000000001
+        },
+        {
+          "id": 424,
+          "source_frame1": 471,
+          "destination_frame1": 512,
+          "travel_s": 4.100000000000001
+        },
+        {
+          "id": 395,
+          "source_frame1": 970,
+          "destination_frame1": 1006,
+          "travel_s": 3.5999999999999943
+        },
+        {
+          "id": 429,
+          "source_frame1": 200,
+          "destination_frame1": 235,
+          "travel_s": 3.5
+        },
+        {
+          "id": 431,
+          "source_frame1": 530,
+          "destination_frame1": 564,
+          "travel_s": 3.3999999999999986
+        },
+        {
+          "id": 363,
+          "source_frame1": 1022,
+          "destination_frame1": 1057,
+          "travel_s": 3.5
+        }
+      ]
+    },
+    {
+      "source": 25,
+      "destination": 24,
+      "usable_prefix_transitions": 1,
+      "status": "insufficient_transitions"
+    },
+    {
+      "source": 25,
+      "destination": 26,
+      "usable_prefix_transitions": 1,
+      "status": "insufficient_transitions"
+    },
+    {
+      "source": 26,
+      "destination": 25,
+      "usable_prefix_transitions": 5,
+      "fitted_crossings": 5,
+      "status": "supported",
+      "travel_time_s": [
+        0.9,
+        1.8800000000000041
+      ],
+      "median_travel_s": 1.7000000000000028,
+      "crossings": [
+        {
+          "id": 424,
+          "source_frame1": 399,
+          "destination_frame1": 416,
+          "travel_s": 1.7000000000000028
+        },
+        {
+          "id": 395,
+          "source_frame1": 908,
+          "destination_frame1": 925,
+          "travel_s": 1.7000000000000028
+        },
+        {
+          "id": 431,
+          "source_frame1": 480,
+          "destination_frame1": 498,
+          "travel_s": 1.8000000000000043
+        },
+        {
+          "id": 363,
+          "source_frame1": 967,
+          "destination_frame1": 977,
+          "travel_s": 1.0
+        },
+        {
+          "id": 437,
+          "source_frame1": 1038,
+          "destination_frame1": 1048,
+          "travel_s": 1.0
+        }
+      ]
+    },
+    {
+      "source": 26,
+      "destination": 27,
+      "usable_prefix_transitions": 4,
+      "status": "insufficient_transitions"
+    },
+    {
+      "source": 27,
+      "destination": 26,
+      "usable_prefix_transitions": 3,
+      "status": "insufficient_transitions"
+    },
+    {
+      "source": 27,
+      "destination": 28,
+      "usable_prefix_transitions": 6,
+      "fitted_crossings": 6,
+      "status": "supported",
+      "travel_time_s": [
+        1.2999999999999914,
+        2.5500000000000003
+      ],
+      "median_travel_s": 1.5000000000000009,
+      "crossings": [
+        {
+          "id": 334,
+          "source_frame1": 1023,
+          "destination_frame1": 1037,
+          "travel_s": 1.3999999999999915
+        },
+        {
+          "id": 420,
+          "source_frame1": 1069,
+          "destination_frame1": 1094,
+          "travel_s": 2.5
+        },
+        {
+          "id": 449,
+          "source_frame1": 713,
+          "destination_frame1": 727,
+          "travel_s": 1.3999999999999915
+        },
+        {
+          "id": 457,
+          "source_frame1": 882,
+          "destination_frame1": 897,
+          "travel_s": 1.5
+        },
+        {
+          "id": 470,
+          "source_frame1": 147,
+          "destination_frame1": 162,
+          "travel_s": 1.5000000000000018
+        },
+        {
+          "id": 471,
+          "source_frame1": 238,
+          "destination_frame1": 261,
+          "travel_s": 2.3000000000000007
+        }
+      ]
+    },
+    {
+      "source": 28,
+      "destination": 27,
+      "usable_prefix_transitions": 5,
+      "fitted_crossings": 5,
+      "status": "supported",
+      "travel_time_s": [
+        1.5200000000000002,
+        2.2199999999999993
+      ],
+      "median_travel_s": 1.7999999999999972,
+      "crossings": [
+        {
+          "id": 395,
+          "source_frame1": 520,
+          "destination_frame1": 536,
+          "travel_s": 1.6000000000000014
+        },
+        {
+          "id": 431,
+          "source_frame1": 75,
+          "destination_frame1": 93,
+          "travel_s": 1.799999999999999
+        },
+        {
+          "id": 363,
+          "source_frame1": 583,
+          "destination_frame1": 600,
+          "travel_s": 1.6999999999999957
+        },
+        {
+          "id": 458,
+          "source_frame1": 283,
+          "destination_frame1": 305,
+          "travel_s": 2.1999999999999993
+        },
+        {
+          "id": 459,
+          "source_frame1": 699,
+          "destination_frame1": 717,
+          "travel_s": 1.7999999999999972
+        }
+      ]
+    },
+    {
+      "source": 28,
+      "destination": 29,
+      "usable_prefix_transitions": 4,
+      "status": "insufficient_transitions"
+    },
+    {
+      "source": 29,
+      "destination": 33,
+      "usable_prefix_transitions": 11,
+      "fitted_crossings": 11,
+      "status": "supported",
+      "travel_time_s": [
+        12.849999999999996,
+        17.85
+      ],
+      "median_travel_s": 15.100000000000009,
+      "crossings": [
+        {
+          "id": 470,
+          "source_frame1": 555,
+          "destination_frame1": 704,
+          "travel_s": 14.899999999999999
+        },
+        {
+          "id": 471,
+          "source_frame1": 659,
+          "destination_frame1": 810,
+          "travel_s": 15.100000000000009
+        },
+        {
+          "id": 475,
+          "source_frame1": 492,
+          "destination_frame1": 666,
+          "travel_s": 17.4
+        },
+        {
+          "id": 485,
+          "source_frame1": 810,
+          "destination_frame1": 966,
+          "travel_s": 15.599999999999994
+        },
+        {
+          "id": 497,
+          "source_frame1": 71,
+          "destination_frame1": 252,
+          "travel_s": 18.1
+        },
+        {
+          "id": 498,
+          "source_frame1": 104,
+          "destination_frame1": 250,
+          "travel_s": 14.599999999999998
+        },
+        {
+          "id": 499,
+          "source_frame1": 181,
+          "destination_frame1": 329,
+          "travel_s": 14.799999999999997
+        },
+        {
+          "id": 500,
+          "source_frame1": 292,
+          "destination_frame1": 463,
+          "travel_s": 17.1
+        },
+        {
+          "id": 501,
+          "source_frame1": 322,
+          "destination_frame1": 460,
+          "travel_s": 13.799999999999997
+        },
+        {
+          "id": 505,
+          "source_frame1": 722,
+          "destination_frame1": 894,
+          "travel_s": 17.200000000000003
+        },
+        {
+          "id": 508,
+          "source_frame1": 885,
+          "destination_frame1": 1006,
+          "travel_s": 12.099999999999994
+        }
+      ]
+    },
+    {
+      "source": 33,
+      "destination": 34,
+      "usable_prefix_transitions": 7,
+      "fitted_crossings": 7,
+      "status": "supported",
+      "travel_time_s": [
+        4.660000000000004,
+        9.539999999999994
+      ],
+      "median_travel_s": 6.600000000000001,
+      "crossings": [
+        {
+          "id": 496,
+          "source_frame1": 243,
+          "destination_frame1": 322,
+          "travel_s": 7.900000000000002
+        },
+        {
+          "id": 505,
+          "source_frame1": 912,
+          "destination_frame1": 959,
+          "travel_s": 4.700000000000003
+        },
+        {
+          "id": 566,
+          "source_frame1": 113,
+          "destination_frame1": 179,
+          "travel_s": 6.600000000000001
+        },
+        {
+          "id": 567,
+          "source_frame1": 163,
+          "destination_frame1": 229,
+          "travel_s": 6.600000000000001
+        },
+        {
+          "id": 569,
+          "source_frame1": 223,
+          "destination_frame1": 293,
+          "travel_s": 7.0
+        },
+        {
+          "id": 579,
+          "source_frame1": 978,
+          "destination_frame1": 1079,
+          "travel_s": 10.099999999999994
+        },
+        {
+          "id": 627,
+          "source_frame1": 1072,
+          "destination_frame1": 1121,
+          "travel_s": 4.900000000000006
+        }
+      ]
+    },
+    {
+      "source": 33,
+      "destination": 35,
+      "usable_prefix_transitions": 2,
+      "status": "insufficient_transitions"
+    },
+    {
+      "source": 33,
+      "destination": 36,
+      "usable_prefix_transitions": 4,
+      "status": "insufficient_transitions"
+    },
+    {
+      "source": 34,
+      "destination": 29,
+      "usable_prefix_transitions": 6,
+      "fitted_crossings": 6,
+      "status": "supported",
+      "travel_time_s": [
+        8.874999999999998,
+        12.749999999999998
+      ],
+      "median_travel_s": 12.2,
+      "crossings": [
+        {
+          "id": 510,
+          "source_frame1": 100,
+          "destination_frame1": 227,
+          "travel_s": 12.700000000000001
+        },
+        {
+          "id": 511,
+          "source_frame1": 146,
+          "destination_frame1": 270,
+          "travel_s": 12.399999999999999
+        },
+        {
+          "id": 512,
+          "source_frame1": 427,
+          "destination_frame1": 510,
+          "travel_s": 8.299999999999997
+        },
+        {
+          "id": 515,
+          "source_frame1": 607,
+          "destination_frame1": 732,
+          "travel_s": 12.499999999999993
+        },
+        {
+          "id": 381,
+          "source_frame1": 771,
+          "destination_frame1": 881,
+          "travel_s": 11.0
+        },
+        {
+          "id": 518,
+          "source_frame1": 911,
+          "destination_frame1": 1031,
+          "travel_s": 12.0
+        }
+      ]
+    },
+    {
+      "source": 34,
+      "destination": 33,
+      "usable_prefix_transitions": 1,
+      "status": "insufficient_transitions"
+    },
+    {
+      "source": 34,
+      "destination": 35,
+      "usable_prefix_transitions": 12,
+      "fitted_crossings": 12,
+      "status": "supported",
+      "travel_time_s": [
+        1.9399999999999982,
+        12.67499999999999
+      ],
+      "median_travel_s": 6.950000000000003,
+      "crossings": [
+        {
+          "id": 470,
+          "source_frame1": 996,
+          "destination_frame1": 1074,
+          "travel_s": 7.799999999999997
+        },
+        {
+          "id": 475,
+          "source_frame1": 958,
+          "destination_frame1": 1004,
+          "travel_s": 4.599999999999994
+        },
+        {
+          "id": 497,
+          "source_frame1": 558,
+          "destination_frame1": 626,
+          "travel_s": 6.799999999999997
+        },
+        {
+          "id": 500,
+          "source_frame1": 710,
+          "destination_frame1": 743,
+          "travel_s": 3.299999999999997
+        },
+        {
+          "id": 501,
+          "source_frame1": 671,
+          "destination_frame1": 827,
+          "travel_s": 15.599999999999994
+        },
+        {
+          "id": 567,
+          "source_frame1": 293,
+          "destination_frame1": 331,
+          "travel_s": 3.8000000000000007
+        },
+        {
+          "id": 569,
+          "source_frame1": 458,
+          "destination_frame1": 463,
+          "travel_s": 0.5
+        },
+        {
+          "id": 570,
+          "source_frame1": 623,
+          "destination_frame1": 695,
+          "travel_s": 7.200000000000003
+        },
+        {
+          "id": 619,
+          "source_frame1": 511,
+          "destination_frame1": 610,
+          "travel_s": 9.899999999999999
+        },
+        {
+          "id": 621,
+          "source_frame1": 772,
+          "destination_frame1": 843,
+          "travel_s": 7.1000000000000085
+        },
+        {
+          "id": 622,
+          "source_frame1": 826,
+          "destination_frame1": 927,
+          "travel_s": 10.099999999999994
+        },
+        {
+          "id": 625,
+          "source_frame1": 1063,
+          "destination_frame1": 1120,
+          "travel_s": 5.700000000000003
+        }
+      ]
+    },
+    {
+      "source": 35,
+      "destination": 34,
+      "usable_prefix_transitions": 4,
+      "status": "insufficient_transitions"
+    },
+    {
+      "source": 36,
+      "destination": 35,
+      "usable_prefix_transitions": 8,
+      "fitted_crossings": 8,
+      "status": "supported",
+      "travel_time_s": [
+        1.2399999999999995,
+        9.029999999999992
+      ],
+      "median_travel_s": 3.4000000000000057,
+      "crossings": [
+        {
+          "id": 515,
+          "source_frame1": 402,
+          "destination_frame1": 431,
+          "travel_s": 2.8999999999999986
+        },
+        {
+          "id": 381,
+          "source_frame1": 539,
+          "destination_frame1": 573,
+          "travel_s": 3.4000000000000057
+        },
+        {
+          "id": 484,
+          "source_frame1": 568,
+          "destination_frame1": 617,
+          "travel_s": 4.899999999999999
+        },
+        {
+          "id": 474,
+          "source_frame1": 665,
+          "destination_frame1": 699,
+          "travel_s": 3.3999999999999915
+        },
+        {
+          "id": 574,
+          "source_frame1": 683,
+          "destination_frame1": 688,
+          "travel_s": 0.5
+        },
+        {
+          "id": 577,
+          "source_frame1": 854,
+          "destination_frame1": 888,
+          "travel_s": 3.4000000000000057
+        },
+        {
+          "id": 522,
+          "source_frame1": 1010,
+          "destination_frame1": 1046,
+          "travel_s": 3.5999999999999943
+        },
+        {
+          "id": 524,
+          "source_frame1": 1040,
+          "destination_frame1": 1151,
+          "travel_s": 11.099999999999994
+        }
+      ]
+    }
+  ],
+  "prefix_exclusions": {
+    "same_camera": 395,
+    "overlap_or_nonpositive_gap": 240,
+    "short_span": 73,
+    "prefix_boundary_censored": 24
+  },
+  "feasible_subset_shortlist": [
+    {
+      "cameras": [
+        29,
+        33,
+        34,
+        35
+      ],
+      "fitted_prefix_crossings": 36,
+      "supported_routes": 4,
+      "replay_start_s": 120.0,
+      "score_start_s": 160.0,
+      "stop_s": 340.0,
+      "warmup_s": 40.0,
+      "maximum_route_upper_s": 17.85
+    },
+    {
+      "cameras": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "fitted_prefix_crossings": 27,
+      "supported_routes": 3,
+      "replay_start_s": 120.0,
+      "score_start_s": 160.0,
+      "stop_s": 340.0,
+      "warmup_s": 40.0,
+      "maximum_route_upper_s": 12.67499999999999
+    },
+    {
+      "cameras": [
+        29,
+        34,
+        35,
+        36
+      ],
+      "fitted_prefix_crossings": 26,
+      "supported_routes": 3,
+      "replay_start_s": 120.0,
+      "score_start_s": 162.0,
+      "stop_s": 342.0,
+      "warmup_s": 42.0,
+      "maximum_route_upper_s": 12.749999999999998
+    },
+    {
+      "cameras": [
+        10,
+        29,
+        33,
+        34
+      ],
+      "fitted_prefix_crossings": 24,
+      "supported_routes": 3,
+      "replay_start_s": 120.0,
+      "score_start_s": 160.0,
+      "stop_s": 340.0,
+      "warmup_s": 40.0,
+      "maximum_route_upper_s": 17.85
+    },
+    {
+      "cameras": [
+        16,
+        29,
+        33,
+        34
+      ],
+      "fitted_prefix_crossings": 24,
+      "supported_routes": 3,
+      "replay_start_s": 120.0,
+      "score_start_s": 160.0,
+      "stop_s": 340.0,
+      "warmup_s": 40.0,
+      "maximum_route_upper_s": 17.85
+    },
+    {
+      "cameras": [
+        17,
+        29,
+        33,
+        34
+      ],
+      "fitted_prefix_crossings": 24,
+      "supported_routes": 3,
+      "replay_start_s": 120.0,
+      "score_start_s": 160.0,
+      "stop_s": 340.0,
+      "warmup_s": 40.0,
+      "maximum_route_upper_s": 17.85
+    },
+    {
+      "cameras": [
+        18,
+        29,
+        33,
+        34
+      ],
+      "fitted_prefix_crossings": 24,
+      "supported_routes": 3,
+      "replay_start_s": 120.0,
+      "score_start_s": 160.0,
+      "stop_s": 340.0,
+      "warmup_s": 40.0,
+      "maximum_route_upper_s": 17.85
+    },
+    {
+      "cameras": [
+        19,
+        29,
+        33,
+        34
+      ],
+      "fitted_prefix_crossings": 24,
+      "supported_routes": 3,
+      "replay_start_s": 120.0,
+      "score_start_s": 160.0,
+      "stop_s": 340.0,
+      "warmup_s": 40.0,
+      "maximum_route_upper_s": 17.85
+    },
+    {
+      "cameras": [
+        20,
+        29,
+        33,
+        34
+      ],
+      "fitted_prefix_crossings": 24,
+      "supported_routes": 3,
+      "replay_start_s": 120.0,
+      "score_start_s": 160.0,
+      "stop_s": 340.0,
+      "warmup_s": 40.0,
+      "maximum_route_upper_s": 17.85
+    },
+    {
+      "cameras": [
+        21,
+        29,
+        33,
+        34
+      ],
+      "fitted_prefix_crossings": 24,
+      "supported_routes": 3,
+      "replay_start_s": 120.0,
+      "score_start_s": 160.0,
+      "stop_s": 340.0,
+      "warmup_s": 40.0,
+      "maximum_route_upper_s": 17.85
+    }
+  ],
+  "scene_metadata_signature": "32ecf1d8f17f9cf1a8d5def49e4678754d7ab326f795921fdf4970c8a1cc4bfd",
+  "method_configuration": null,
+  "development_policy": "Choose perception/tracker settings using only S02 prefix development evidence. Freeze the selected variant and comparison controls before S05 replay or suffix evaluation. S02 suffix is already observed and cannot be used as an untouched confirmation set.",
+  "suffix_access": "No S05 GT identity/box field at or after 120 seconds read by this builder. No S05 method scores computed. Whole GT evaluation reader must not run until final configuration is frozen.",
+  "future_evaluation_topology": "Load full S05 GT across all 19 cameras after freeze, construct topology before selecting the four-camera routes and score interval; do not invent transitions by filtering out intervening cameras.",
+  "scope": "New physical location relative to S02 and RoundaboutHD, with disclosed labeled S05 prefix calibration. S03/S04/S05 share physical camera-location map S0345; S05 is not an unseen physical site relative to S03/S04.",
+  "clock_limit": "Supplied start offsets only; transmission skips/stuck frames are not repaired."
+}

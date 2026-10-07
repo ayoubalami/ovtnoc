@@ -1,0 +1,189 @@
+{
+  "phase": "test",
+  "cameras": [
+    1,
+    2
+  ],
+  "fps": 15.0,
+  "start_frame": 7800,
+  "stop_frame": 9000,
+  "seed": 7,
+  "tracker": {
+    "track_high_thresh": 0.6,
+    "track_low_thresh": 0.1,
+    "new_track_thresh": 0.6,
+    "track_buffer": 30,
+    "match_thresh": 0.9,
+    "fuse_score": true
+  },
+  "scheduler": {
+    "max_detection_gap": 6,
+    "uncertainty_weight": 1.0,
+    "handoff_weight": 0.25,
+    "identity_weight": 1.0
+  },
+  "association": {
+    "kind": "bounded",
+    "feature_mode": "ema_observed",
+    "source_pooling": "exit_prototype",
+    "max_cosine_distance": 0.8,
+    "ambiguity_margin": 0.0,
+    "confirmation_frames": 8,
+    "minimum_observations": 2,
+    "gallery_size": 5,
+    "time_weight": 0.0
+  },
+  "communication": {
+    "delay_s": 0.0,
+    "loss_probability": 0.0
+  },
+  "routes": [
+    {
+      "source": 1,
+      "destination": 2,
+      "exit_polygon": [
+        [
+          0,
+          0.43
+        ],
+        [
+          0.09,
+          0.43
+        ],
+        [
+          0.09,
+          0.7
+        ],
+        [
+          0,
+          0.7
+        ]
+      ],
+      "entry_polygon": [
+        [
+          0.52,
+          0.14
+        ],
+        [
+          0.64,
+          0.14
+        ],
+        [
+          0.64,
+          0.32
+        ],
+        [
+          0.52,
+          0.32
+        ]
+      ],
+      "direction": [
+        -1,
+        0
+      ],
+      "travel_time_s": [
+        24.27,
+        38.44666666666667
+      ]
+    },
+    {
+      "source": 2,
+      "destination": 1,
+      "exit_polygon": [
+        [
+          0.6,
+          0.15
+        ],
+        [
+          0.65,
+          0.15
+        ],
+        [
+          0.65,
+          0.22
+        ],
+        [
+          0.6,
+          0.22
+        ]
+      ],
+      "entry_polygon": [
+        [
+          0,
+          0.7
+        ],
+        [
+          0.14,
+          0.7
+        ],
+        [
+          0.14,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "direction": [
+        0,
+        -1
+      ],
+      "travel_time_s": [
+        30.846666666666668,
+        36.44
+      ]
+    }
+  ],
+  "output_filter": {
+    "kind": "causal_motion",
+    "window_frames": 30,
+    "minimum_observations": 3,
+    "displacement_fraction": 0.005
+  },
+  "route_calibration": {
+    "start_frame": 0,
+    "stop_frame": 1800,
+    "ground_truth_sha256": "d640c0e579b32f3f611a3f58be1d34a5ce85326077fa99110e480c39bbfbbce7",
+    "estimator": "5th/95th percentiles plus one frame margin",
+    "routes": [
+      {
+        "source": 1,
+        "destination": 2,
+        "samples": 12,
+        "median_s": 29.233333333333334
+      },
+      {
+        "source": 2,
+        "destination": 1,
+        "samples": 15,
+        "median_s": 32.733333333333334
+      }
+    ]
+  },
+  "zone_audit": {
+    "source": "development frame 1000, road geometry and development transition endpoints",
+    "frame": 1000,
+    "reviewed": true,
+    "annotation_interval": [
+      0,
+      1800
+    ]
+  },
+  "appearance_calibration": {
+    "start_frame": 0,
+    "stop_frame": 1800,
+    "model": "vehicle-reid-0001",
+    "selection_signature": "772b0c15c98c60e80c394ccb2745a089ce6534a3c63404efe901a911b40005fa"
+  },
+  "bounded_calibration": {
+    "start_frame": 0,
+    "stop_frame": 1800,
+    "selection_signature": "b108516e082ecef8238d4f596aa0fa7f1473473c6f9ef6515acbd4dac42d9105"
+  },
+  "scheduling_calibration": {
+    "start_frame": 0,
+    "stop_frame": 1800,
+    "selection_signature": "9c1fad795d2be5da4dbb06f1c9c9e4ea99340564b261a1afd73e82d50a662f09"
+  }
+}

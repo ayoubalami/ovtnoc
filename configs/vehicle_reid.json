@@ -1,0 +1,9 @@
+{
+  "model": "vehicle-reid-0001",
+  "filename": "osnet_ain_x1_0_vehicle_reid.onnx",
+  "source": "https://storage.openvinotoolkit.org/repositories/open_model_zoo/public/2022.1/vehicle-reid-0001/osnet_ain_x1_0_vehicle_reid.onnx",
+  "open_model_zoo_commit": "a6946b6d6ce42cbf4278df20275fab199655fc7d",
+  "sha256": "4aaad3e5db648618b0df3d2ff21c61323985ff9e50194c3d2edd4fb87c92d91f",
+  "training": "Externally pretrained on VeRi-776; no training on the evaluated datasets",
+  "redistributed": false
+}

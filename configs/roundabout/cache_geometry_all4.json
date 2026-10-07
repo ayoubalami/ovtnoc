@@ -1,0 +1,449 @@
+{
+  "phase": "development",
+  "cameras": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "fps": 15.0,
+  "start_frame": 0,
+  "stop_frame": 1800,
+  "seed": 7,
+  "tracker": {
+    "track_high_thresh": 0.6,
+    "track_low_thresh": 0.1,
+    "new_track_thresh": 0.6,
+    "track_buffer": 30,
+    "match_thresh": 0.9,
+    "fuse_score": true
+  },
+  "scheduler": {
+    "max_detection_gap": 6,
+    "uncertainty_weight": 1.0,
+    "handoff_weight": 0.25,
+    "identity_weight": 1.0
+  },
+  "association": {
+    "kind": "bounded",
+    "feature_mode": "ema_observed",
+    "source_pooling": "exit_prototype",
+    "max_cosine_distance": 0.8,
+    "ambiguity_margin": 0.0,
+    "confirmation_frames": 8,
+    "minimum_observations": 2,
+    "gallery_size": 5,
+    "time_weight": 0.0
+  },
+  "communication": {
+    "delay_s": 0.0,
+    "loss_probability": 0.0
+  },
+  "routes": [
+    {
+      "source": 1,
+      "destination": 2,
+      "exit_polygon": [
+        [
+          0,
+          0.43
+        ],
+        [
+          0.09,
+          0.43
+        ],
+        [
+          0.09,
+          0.7
+        ],
+        [
+          0,
+          0.7
+        ]
+      ],
+      "entry_polygon": [
+        [
+          0.52,
+          0.14
+        ],
+        [
+          0.64,
+          0.14
+        ],
+        [
+          0.64,
+          0.32
+        ],
+        [
+          0.52,
+          0.32
+        ]
+      ],
+      "direction": [
+        -1,
+        0
+      ],
+      "travel_time_s": [
+        24.27,
+        38.44666666666667
+      ]
+    },
+    {
+      "source": 2,
+      "destination": 1,
+      "exit_polygon": [
+        [
+          0.6,
+          0.15
+        ],
+        [
+          0.65,
+          0.15
+        ],
+        [
+          0.65,
+          0.22
+        ],
+        [
+          0.6,
+          0.22
+        ]
+      ],
+      "entry_polygon": [
+        [
+          0,
+          0.7
+        ],
+        [
+          0.14,
+          0.7
+        ],
+        [
+          0.14,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "direction": [
+        0,
+        -1
+      ],
+      "travel_time_s": [
+        30.846666666666668,
+        36.44
+      ]
+    },
+    {
+      "source": 2,
+      "destination": 3,
+      "exit_polygon": [
+        [
+          0.0,
+          0.4975092592592593
+        ],
+        [
+          0.04719921875,
+          0.4975092592592593
+        ],
+        [
+          0.04719921875,
+          0.6647175925925926
+        ],
+        [
+          0.0,
+          0.6647175925925926
+        ]
+      ],
+      "entry_polygon": [
+        [
+          0.5969791666666666,
+          0.14796296296296296
+        ],
+        [
+          1.0,
+          0.14796296296296296
+        ],
+        [
+          1.0,
+          0.3585185185185185
+        ],
+        [
+          0.5969791666666666,
+          0.3585185185185185
+        ]
+      ],
+      "direction": [
+        -0.7741196921298108,
+        0.6330392580692346
+      ],
+      "travel_time_s": [
+        44.6,
+        60.050000000000004
+      ]
+    },
+    {
+      "source": 3,
+      "destination": 2,
+      "exit_polygon": [
+        [
+          0.9543906249999999,
+          0.3031990740740741
+        ],
+        [
+          1.0,
+          0.3031990740740741
+        ],
+        [
+          1.0,
+          0.412962962962963
+        ],
+        [
+          0.9543906249999999,
+          0.412962962962963
+        ]
+      ],
+      "entry_polygon": [
+        [
+          0.0,
+          0.9123148148148148
+        ],
+        [
+          0.21083333333333334,
+          0.9123148148148148
+        ],
+        [
+          0.21083333333333334,
+          1.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "direction": [
+        0.9265978348712722,
+        -0.37605378925343985
+      ],
+      "travel_time_s": [
+        45.83333333333333,
+        57.419999999999995
+      ]
+    },
+    {
+      "source": 3,
+      "destination": 4,
+      "exit_polygon": [
+        [
+          0.0,
+          0.2120416666666667
+        ],
+        [
+          0.10155859375,
+          0.2120416666666667
+        ],
+        [
+          0.10155859375,
+          0.29971296296296296
+        ],
+        [
+          0.0,
+          0.29971296296296296
+        ]
+      ],
+      "entry_polygon": [
+        [
+          0.0,
+          0.9572222222222222
+        ],
+        [
+          0.3370052083333333,
+          0.9572222222222222
+        ],
+        [
+          0.3370052083333333,
+          1.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "direction": [
+        -0.9777680631748559,
+        0.2096893288541194
+      ],
+      "travel_time_s": [
+        39.13333333333333,
+        57.53333333333334
+      ]
+    },
+    {
+      "source": 4,
+      "destination": 3,
+      "exit_polygon": [
+        [
+          0.0,
+          0.525236111111111
+        ],
+        [
+          0.04862239583333333,
+          0.525236111111111
+        ],
+        [
+          0.04862239583333333,
+          0.7174351851851853
+        ],
+        [
+          0.0,
+          0.7174351851851853
+        ]
+      ],
+      "entry_polygon": [
+        [
+          0.0,
+          0.21925925925925924
+        ],
+        [
+          0.10458333333333333,
+          0.21925925925925924
+        ],
+        [
+          0.10458333333333333,
+          0.3247222222222222
+        ],
+        [
+          0.0,
+          0.3247222222222222
+        ]
+      ],
+      "direction": [
+        -0.7084187748575846,
+        0.7057923486616152
+      ],
+      "travel_time_s": [
+        40.239999999999995,
+        49.333333333333336
+      ]
+    }
+  ],
+  "output_filter": {
+    "kind": "causal_motion",
+    "window_frames": 30,
+    "minimum_observations": 3,
+    "displacement_fraction": 0.005
+  },
+  "route_calibration": {
+    "start_frame": 0,
+    "stop_frame": 1800,
+    "ground_truth_sha256": "d640c0e579b32f3f611a3f58be1d34a5ce85326077fa99110e480c39bbfbbce7",
+    "estimator": "5th/95th percentiles plus one frame margin",
+    "routes": [
+      {
+        "source": 1,
+        "destination": 2,
+        "samples": 12,
+        "median_s": 29.233333333333334
+      },
+      {
+        "source": 2,
+        "destination": 1,
+        "samples": 15,
+        "median_s": 32.733333333333334
+      },
+      {
+        "source": 2,
+        "destination": 3,
+        "samples": 6,
+        "median_s": 48.6
+      },
+      {
+        "source": 3,
+        "destination": 2,
+        "samples": 7,
+        "median_s": 48.266666666666666
+      },
+      {
+        "source": 3,
+        "destination": 4,
+        "samples": 11,
+        "median_s": 41.733333333333334
+      },
+      {
+        "source": 4,
+        "destination": 3,
+        "samples": 13,
+        "median_s": 43.86666666666667
+      }
+    ],
+    "preserved_pair_calibration": {
+      "start_frame": 0,
+      "stop_frame": 1800,
+      "ground_truth_sha256": "d640c0e579b32f3f611a3f58be1d34a5ce85326077fa99110e480c39bbfbbce7",
+      "estimator": "5th/95th percentiles plus one frame margin",
+      "routes": [
+        {
+          "source": 1,
+          "destination": 2,
+          "samples": 12,
+          "median_s": 29.233333333333334
+        },
+        {
+          "source": 2,
+          "destination": 1,
+          "samples": 15,
+          "median_s": 32.733333333333334
+        }
+      ]
+    }
+  },
+  "zone_audit": {
+    "source": "Development-only normalized GT endpoint extrema plus fixed padding; direction is median normalized five-frame source displacement.",
+    "annotation_interval": [
+      0,
+      1800
+    ],
+    "padding": 0.04,
+    "reviewed": true,
+    "new_routes": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    "original_pair_preserved": true,
+    "builder_sha256": "6e786d69f8631b2daf4dd17c650dc2b4db5ebb6a2705ef4276f29fd191c77739",
+    "review_note": "Development frame1000 overlays visually inspected for all4 cameras; no evaluation imagery or results used for calibration."
+  },
+  "appearance_calibration": {
+    "start_frame": 0,
+    "stop_frame": 1800,
+    "model": "vehicle-reid-0001",
+    "selection_signature": "772b0c15c98c60e80c394ccb2745a089ce6534a3c63404efe901a911b40005fa"
+  },
+  "bounded_calibration": {
+    "start_frame": 0,
+    "stop_frame": 1800,
+    "selection_signature": "b108516e082ecef8238d4f596aa0fa7f1473473c6f9ef6515acbd4dac42d9105"
+  },
+  "scheduling_calibration": {
+    "start_frame": 0,
+    "stop_frame": 1800,
+    "selection_signature": "9c1fad795d2be5da4dbb06f1c9c9e4ea99340564b261a1afd73e82d50a662f09"
+  },
+  "evaluation_exposure": "Expanded same-recording evaluation. Earlier pair1/2 intervals and all4 local tracking [3000,3600) were inspected; not an untouched test. No selection from the new scores."
+}

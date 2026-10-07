@@ -1,0 +1,127 @@
+{
+  "status": "complete",
+  "rows": {
+    "validation": [
+      {
+        "variant": "native",
+        "retention_frames": 30,
+        "match_threshold": 0.65,
+        "global_IDF1": 0.5793121400449028,
+        "local_IDF1_mcvt": 0.6924153190381674,
+        "handoff_recall": 0.0,
+        "handoff_precision": null,
+        "reference_handoffs": 14,
+        "confirmed_handoffs": 0,
+        "detector_calls": 2400,
+        "prediction_rows": 17350,
+        "descriptor_observations": 3070,
+        "rows_without_descriptor_history": 9291,
+        "rows_without_descriptor_fraction": 0.5355043227665706,
+        "publication_delay_max_s": 0.0,
+        "deadline_violations": 0
+      },
+      {
+        "variant": "development_route",
+        "retention_frames": 607,
+        "match_threshold": 0.65,
+        "global_IDF1": 0.5942146877948785,
+        "local_IDF1_mcvt": 0.6924153190381674,
+        "handoff_recall": 0.14285714285714285,
+        "handoff_precision": 0.25,
+        "reference_handoffs": 14,
+        "confirmed_handoffs": 2,
+        "detector_calls": 2400,
+        "prediction_rows": 17350,
+        "descriptor_observations": 3070,
+        "rows_without_descriptor_history": 9291,
+        "rows_without_descriptor_fraction": 0.5355043227665706,
+        "publication_delay_max_s": 0.0,
+        "deadline_violations": 0
+      }
+    ],
+    "test": [
+      {
+        "variant": "native",
+        "retention_frames": 30,
+        "match_threshold": 0.65,
+        "global_IDF1": 0.600679482930063,
+        "local_IDF1_mcvt": 0.7311070599933709,
+        "handoff_recall": 0.0,
+        "handoff_precision": null,
+        "reference_handoffs": 13,
+        "confirmed_handoffs": 0,
+        "detector_calls": 2400,
+        "prediction_rows": 14256,
+        "descriptor_observations": 2246,
+        "rows_without_descriptor_history": 7580,
+        "rows_without_descriptor_fraction": 0.5317059483726151,
+        "publication_delay_max_s": 0.0,
+        "deadline_violations": 0
+      },
+      {
+        "variant": "development_route",
+        "retention_frames": 607,
+        "match_threshold": 0.65,
+        "global_IDF1": 0.600679482930063,
+        "local_IDF1_mcvt": 0.7311070599933709,
+        "handoff_recall": 0.0,
+        "handoff_precision": 0.0,
+        "reference_handoffs": 13,
+        "confirmed_handoffs": 0,
+        "detector_calls": 2400,
+        "prediction_rows": 14256,
+        "descriptor_observations": 2246,
+        "rows_without_descriptor_history": 7580,
+        "rows_without_descriptor_fraction": 0.5317059483726151,
+        "publication_delay_max_s": 0.0,
+        "deadline_violations": 0
+      }
+    ],
+    "all4": [
+      {
+        "variant": "native",
+        "retention_frames": 30,
+        "match_threshold": 0.65,
+        "global_IDF1": 0.4567121795272497,
+        "local_IDF1_mcvt": 0.7152514220908531,
+        "handoff_recall": 0.0,
+        "handoff_precision": 0.0,
+        "reference_handoffs": 114,
+        "confirmed_handoffs": 0,
+        "detector_calls": 14400,
+        "prediction_rows": 94073,
+        "descriptor_observations": 21524,
+        "rows_without_descriptor_history": 37099,
+        "rows_without_descriptor_fraction": 0.39436395139944513,
+        "publication_delay_max_s": 0.0,
+        "deadline_violations": 0
+      },
+      {
+        "variant": "development_route",
+        "retention_frames": 931,
+        "match_threshold": 0.65,
+        "global_IDF1": 0.49812918032201314,
+        "local_IDF1_mcvt": 0.7152514220908531,
+        "handoff_recall": 0.2631578947368421,
+        "handoff_precision": 0.2857142857142857,
+        "reference_handoffs": 114,
+        "confirmed_handoffs": 30,
+        "detector_calls": 14400,
+        "prediction_rows": 94073,
+        "descriptor_observations": 21524,
+        "rows_without_descriptor_history": 37099,
+        "rows_without_descriptor_fraction": 0.39436395139944513,
+        "publication_delay_max_s": 0.0,
+        "deadline_violations": 0
+      }
+    ]
+  },
+  "scope": "CPU association-only published adaptation using the corrected reanalysis local streams",
+  "caveats": [
+    "CPU association-only adaptation, not the full published detector/tracker/descriptor pipeline.",
+    "Threshold0.65 and no-camera-revisit gate preserved. Native and development-derived retention both reported.",
+    "Zone-restricted observed descriptors aligned at IoU>=0.5 on actual detector decisions; missing descriptor history disclosed.",
+    "Same local boxes and detector exposures, no baseline identity feedback to scheduling, no GT input.",
+    "Reported global metrics use the scored interval; supplementary availability metrics cover full replay."
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "status": "complete",
+  "comparisons": {
+    "2": {
+      "reference_handoffs": 101,
+      "vehicle_clusters": 70,
+      "base_confirmed": 10,
+      "other_confirmed": 10,
+      "newly_confirmed": 1,
+      "lost_confirmations": 1,
+      "delta_recall_pp": 0.0,
+      "interval_95_pp": [
+        -2.9411764705882355,
+        2.912621359223301
+      ],
+      "bootstrap_repetitions": 2000,
+      "seed": 19,
+      "bootstrap_unit": "whole GT vehicle identity",
+      "note": "Descriptive percentile interval conditional on this recording and declared routes; no across-scene interval or significance claim."
+    },
+    "4": {
+      "reference_handoffs": 101,
+      "vehicle_clusters": 70,
+      "base_confirmed": 10,
+      "other_confirmed": 12,
+      "newly_confirmed": 3,
+      "lost_confirmations": 1,
+      "delta_recall_pp": 1.9801980198019802,
+      "interval_95_pp": [
+        -1.9801980198019802,
+        6.062152133580697
+      ],
+      "bootstrap_repetitions": 2000,
+      "seed": 19,
+      "bootstrap_unit": "whole GT vehicle identity",
+      "note": "Descriptive percentile interval conditional on this recording and declared routes; no across-scene interval or significance claim."
+    },
+    "8": {
+      "reference_handoffs": 101,
+      "vehicle_clusters": 70,
+      "base_confirmed": 10,
+      "other_confirmed": 19,
+      "newly_confirmed": 10,
+      "lost_confirmations": 1,
+      "delta_recall_pp": 8.910891089108912,
+      "interval_95_pp": [
+        3.124194587628866,
+        15.056207233626576
+      ],
+      "bootstrap_repetitions": 2000,
+      "seed": 19,
+      "bootstrap_unit": "whole GT vehicle identity",
+      "note": "Descriptive percentile interval conditional on this recording and declared routes; no across-scene interval or significance claim."
+    }
+  },
+  "input_sha256": {
+    "desktop_impl\\runs\\cityflow_S05_suffix_v0_6\\K0_n1\\metrics.json": "8b96448b57dfae0dc24e20e3f24b89267dc5a90ec36e8056f90ee957b4dc45d7",
+    "desktop_impl\\runs\\cityflow_S05_suffix_v0_6\\K2_n1\\metrics.json": "0e988e4d86aa9cb7f7bcbf7b66c767d20df9e96386ebef22b28898ec92145595",
+    "desktop_impl\\runs\\cityflow_S05_suffix_v0_6\\K4_n1\\metrics.json": "79482b249feac78ca2a489fb33b44dff22d56ce327f12b2ab4d94b9b919313ec",
+    "desktop_impl\\runs\\cityflow_S05_suffix_v0_6\\K8_n1\\metrics.json": "541f8ef081e9961b38771fbe72ff92f970e58955bd08b01256f3e8678bd9d4a1"
+  },
+  "analysis_sha256": "0421921e5621afa24e0c64f0144269b12c3cd545b47a95a00ef6a514cadb831f",
+  "note": "All deadlines are retained. No winning deadline is selected from this analysis."
+}

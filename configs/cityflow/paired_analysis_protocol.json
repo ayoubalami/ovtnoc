@@ -1,0 +1,15 @@
+{
+  "status": "defined_before_S05_suffix_annotation_access",
+  "comparisons": [
+    "K2-K0",
+    "K4-K0",
+    "K8-K0"
+  ],
+  "metric": "declared-route handoff recall difference",
+  "unit": "whole GT vehicle identities with all their repeated visits",
+  "bootstrap_repetitions": 2000,
+  "seed": 19,
+  "interval": "descriptive 95 percent percentile interval conditional on this recording",
+  "script_sha256": "0421921e5621afa24e0c64f0144269b12c3cd545b47a95a00ef6a514cadb831f",
+  "no_across_scene_significance_claim": true
+}

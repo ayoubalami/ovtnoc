@@ -1,0 +1,40 @@
+# Private/local inputs and generated experiment files
+/data/
+/models/
+/caches/
+/runs/
+/work/
+/Ultralytics/
+*.sqlite*
+*.db
+*.pt
+*.pth
+*.onnx
+*.bin
+*.avi
+*.mp4
+*.mov
+*.zip
+
+# Environments, Python builds and editor state
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+
+# Local credentials and logs
+.env
+.env.*
+!.env.example
+*.log
+

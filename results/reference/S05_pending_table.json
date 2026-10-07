@@ -1,0 +1,100 @@
+{
+  "rows": [
+    {
+      "confirmation_frames": 0,
+      "scored_pending_tracks": 725,
+      "confirmation_outcomes": {
+        "deadline_accepted": 228,
+        "deadline_fresh": 497
+      },
+      "median_wait_s": 0.0,
+      "p95_wait_s": 0.0,
+      "maximum_wait_s": 0.0,
+      "note": "Tracks first observed during the score interval; commitment is not GT correctness.",
+      "outcome_fractions": {
+        "deadline_accepted": 0.31448275862068964,
+        "deadline_fresh": 0.6855172413793104
+      },
+      "fresh_decision_statuses": {
+        "no_legal_candidate": 475,
+        "unassigned_after_batch": 10,
+        "competition_rejected": 12
+      }
+    },
+    {
+      "confirmation_frames": 2,
+      "scored_pending_tracks": 725,
+      "confirmation_outcomes": {
+        "early_accepted": 231,
+        "deadline_fresh": 488,
+        "deadline_accepted": 5,
+        "interval_end_fresh": 1
+      },
+      "median_wait_s": 0.19999999999998863,
+      "p95_wait_s": 0.19999999999998863,
+      "maximum_wait_s": 0.20000000000004547,
+      "note": "Tracks first observed during the score interval; commitment is not GT correctness.",
+      "outcome_fractions": {
+        "early_accepted": 0.31862068965517243,
+        "deadline_fresh": 0.6731034482758621,
+        "deadline_accepted": 0.006896551724137931,
+        "interval_end_fresh": 0.001379310344827586
+      },
+      "fresh_decision_statuses": {
+        "no_legal_candidate": 485,
+        "competition_rejected": 3
+      }
+    },
+    {
+      "confirmation_frames": 4,
+      "scored_pending_tracks": 725,
+      "confirmation_outcomes": {
+        "early_accepted": 237,
+        "deadline_fresh": 482,
+        "deadline_accepted": 5,
+        "interval_end_fresh": 1
+      },
+      "median_wait_s": 0.39999999999997726,
+      "p95_wait_s": 0.4000000000000057,
+      "maximum_wait_s": 0.4000000000000341,
+      "note": "Tracks first observed during the score interval; commitment is not GT correctness.",
+      "outcome_fractions": {
+        "early_accepted": 0.32689655172413795,
+        "deadline_fresh": 0.6648275862068965,
+        "deadline_accepted": 0.006896551724137931,
+        "interval_end_fresh": 0.001379310344827586
+      },
+      "fresh_decision_statuses": {
+        "no_legal_candidate": 478,
+        "unassigned_after_batch": 3,
+        "competition_rejected": 1
+      }
+    },
+    {
+      "confirmation_frames": 8,
+      "scored_pending_tracks": 725,
+      "confirmation_outcomes": {
+        "early_accepted": 252,
+        "deadline_fresh": 467,
+        "deadline_accepted": 5,
+        "interval_end_fresh": 1
+      },
+      "median_wait_s": 0.8000000000000114,
+      "p95_wait_s": 0.8000000000000114,
+      "maximum_wait_s": 0.8000000000000114,
+      "note": "Tracks first observed during the score interval; commitment is not GT correctness.",
+      "outcome_fractions": {
+        "early_accepted": 0.34758620689655173,
+        "deadline_fresh": 0.6441379310344828,
+        "deadline_accepted": 0.006896551724137931,
+        "interval_end_fresh": 0.001379310344827586
+      },
+      "fresh_decision_statuses": {
+        "no_legal_candidate": 463,
+        "unassigned_after_batch": 3,
+        "competition_rejected": 1
+      }
+    }
+  ],
+  "note": "Decision statuses describe recorded gates; they are not GT causal diagnoses. Outside-entry fresh identities are outside the pending cohort."
+}
